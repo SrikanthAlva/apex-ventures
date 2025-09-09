@@ -204,10 +204,10 @@ export default function MarketEntryPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Measurable Outcomes
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our Phase 1 partnership delivers concrete results that position your
 							company for immediate operations and long-term success in the GCC
 							market.
@@ -228,10 +228,10 @@ export default function MarketEntryPage() {
 										<div className='text-3xl font-bold text-blue-600 mb-2'>
 											{outcome.metric}
 										</div>
-										<h3 className='text-lg font-semibold text-gray-900 mb-2'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-2'>
 											{outcome.title}
 										</h3>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											{outcome.description}
 										</p>
 									</CardContent>
@@ -252,10 +252,10 @@ export default function MarketEntryPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Comprehensive Setup Services
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							We handle every aspect of market entry, from regulatory compliance to
 							capital formation, ensuring you can focus on your core business while we
 							establish your foundation.
@@ -278,10 +278,10 @@ export default function MarketEntryPage() {
 												<service.icon className='h-6 w-6 text-blue-600' />
 											</div>
 											<div className='flex-1'>
-												<h3 className='text-xl font-semibold text-gray-900 mb-2'>
+												<h3 className='text-xl font-semibold text-gray-300 mb-2'>
 													{service.title}
 												</h3>
-												<p className='text-gray-600 mb-4'>
+												<p className='text-gray-500 mb-4'>
 													{service.description}
 												</p>
 												<div className='flex items-center gap-2 mb-4'>
@@ -299,7 +299,7 @@ export default function MarketEntryPage() {
 													className='flex items-start gap-2'
 												>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-sm text-gray-600'>
+													<span className='text-sm text-gray-500'>
 														{detail}
 													</span>
 												</div>
@@ -323,10 +323,10 @@ export default function MarketEntryPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Our Proven Process
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							A systematic approach developed over years of successful market entries,
 							optimized for speed and compliance in the GCC regulatory environment.
 						</p>
@@ -350,10 +350,10 @@ export default function MarketEntryPage() {
 												</div>
 											</div>
 											<div className='flex-1'>
-												<h3 className='text-xl font-semibold text-gray-900 mb-3'>
+												<h3 className='text-xl font-semibold text-gray-300 mb-3'>
 													{step.title}
 												</h3>
-												<p className='text-gray-600'>{step.description}</p>
+												<p className='text-gray-500'>{step.description}</p>
 											</div>
 											<div className='flex-shrink-0'>
 												<step.icon className='h-8 w-8 text-blue-600' />
@@ -377,10 +377,10 @@ export default function MarketEntryPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Government Grant Programs
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Access significant non-dilutive funding through our established
 							relationships with key government entities and incentive programs.
 						</p>
@@ -397,7 +397,7 @@ export default function MarketEntryPage() {
 							>
 								<Card className='h-full'>
 									<CardContent className='p-6'>
-										<h3 className='text-lg font-semibold text-gray-900 mb-3'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-3'>
 											{program.name}
 										</h3>
 										<div className='space-y-3'>
@@ -405,7 +405,7 @@ export default function MarketEntryPage() {
 												<span className='font-medium text-gray-700'>
 													Focus:
 												</span>
-												<span className='text-gray-600 ml-2'>
+												<span className='text-gray-500 ml-2'>
 													{program.focus}
 												</span>
 											</div>
@@ -413,7 +413,7 @@ export default function MarketEntryPage() {
 												<span className='font-medium text-gray-700'>
 													Funding:
 												</span>
-												<span className='text-gray-600 ml-2'>
+												<span className='text-gray-500 ml-2'>
 													{program.funding}
 												</span>
 											</div>
@@ -421,7 +421,7 @@ export default function MarketEntryPage() {
 												<span className='font-medium text-gray-700'>
 													Sectors:
 												</span>
-												<span className='text-gray-600 ml-2'>
+												<span className='text-gray-500 ml-2'>
 													{program.sectors}
 												</span>
 											</div>
@@ -444,10 +444,10 @@ export default function MarketEntryPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>
 								Investment & Timeline
 							</h2>
-							<p className='text-lg text-gray-600 mb-8'>
+							<p className='text-lg text-gray-500 mb-8'>
 								Phase 1 typically requires 2-4 weeks for completion with an
 								investment range of $25K-$100K, depending on entity complexity and
 								grant application scope.
@@ -455,21 +455,21 @@ export default function MarketEntryPage() {
 
 							<div className='space-y-6'>
 								<div className='border-l-4 border-blue-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>Week 1</h3>
-									<p className='text-gray-600'>
+									<h3 className='font-semibold text-gray-300 mb-2'>Week 1</h3>
+									<p className='text-gray-500'>
 										Market assessment, entity structure design, and initial
 										registrations
 									</p>
 								</div>
 								<div className='border-l-4 border-blue-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>Week 2</h3>
-									<p className='text-gray-600'>
+									<h3 className='font-semibold text-gray-300 mb-2'>Week 2</h3>
+									<p className='text-gray-500'>
 										Commercial registration completion and banking setup
 									</p>
 								</div>
 								<div className='border-l-4 border-blue-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>Week 3-4</h3>
-									<p className='text-gray-600'>
+									<h3 className='font-semibold text-gray-300 mb-2'>Week 3-4</h3>
+									<p className='text-gray-500'>
 										Grant applications, investor introductions, and operational
 										readiness
 									</p>
@@ -485,7 +485,7 @@ export default function MarketEntryPage() {
 						>
 							<Card className='bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200'>
 								<CardContent className='p-8'>
-									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+									<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 										What&apos;s Included
 									</h3>
 									<div className='space-y-4'>

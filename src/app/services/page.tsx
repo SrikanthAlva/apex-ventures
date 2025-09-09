@@ -146,7 +146,7 @@ export default function ServicesPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-br from-primary via-primary/90 to-accent text-white'>
+			<section className='py-24 sm:py-32 bg-gradient-to-br from-primary to-accent text-white'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -180,10 +180,10 @@ export default function ServicesPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Why Partner with Apex Ventures
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our unique approach combines strategic consulting with hands-on
 							execution, ensuring your GCC expansion delivers measurable results at
 							every stage.
@@ -202,10 +202,10 @@ export default function ServicesPage() {
 								<Card className='h-full text-center hover:shadow-lg transition-shadow duration-300'>
 									<CardContent className='p-6'>
 										<highlight.icon className='h-12 w-12 text-primary mx-auto mb-4' />
-										<h3 className='text-lg font-semibold text-gray-900 mb-3'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-3'>
 											{highlight.title}
 										</h3>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											{highlight.description}
 										</p>
 									</CardContent>
@@ -226,10 +226,10 @@ export default function ServicesPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Our Four-Phase Partnership Model
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Each phase builds strategically on the previous one, ensuring
 							sustainable growth and deep market integration throughout your GCC
 							expansion journey.
@@ -259,32 +259,32 @@ export default function ServicesPage() {
 														{phase.number}
 													</div>
 													<div className='flex-1'>
-														<h3 className='text-2xl font-bold text-gray-900 mb-3'>
+														<h3 className='text-2xl font-bold text-gray-300 mb-3'>
 															{phase.title}
 														</h3>
-														<p className='text-gray-600 mb-6'>
+														<p className='text-gray-500 mb-6'>
 															{phase.description}
 														</p>
 														<div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-6'>
 															<div>
 																<div className='flex items-center gap-2 mb-2'>
 																	<Clock className='h-4 w-4 text-primary' />
-																	<span className='font-semibold text-gray-900'>
+																	<span className='font-semibold text-gray-300'>
 																		Timeline
 																	</span>
 																</div>
-																<p className='text-gray-600'>
+																<p className='text-gray-500'>
 																	{phase.timeline}
 																</p>
 															</div>
 															<div>
 																<div className='flex items-center gap-2 mb-2'>
 																	<DollarSign className='h-4 w-4 text-primary' />
-																	<span className='font-semibold text-gray-900'>
+																	<span className='font-semibold text-gray-300'>
 																		Investment Range
 																	</span>
 																</div>
-																<p className='text-gray-600'>
+																<p className='text-gray-500'>
 																	{phase.investment}
 																</p>
 															</div>
@@ -295,7 +295,7 @@ export default function ServicesPage() {
 
 											{/* Key Outcomes */}
 											<div>
-												<h4 className='font-semibold text-gray-900 mb-4'>
+												<h4 className='font-semibold text-gray-300 mb-4'>
 													Key Outcomes
 												</h4>
 												<div className='space-y-3'>
@@ -306,7 +306,7 @@ export default function ServicesPage() {
 																className='flex items-start gap-2'
 															>
 																<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-																<span className='text-sm text-gray-600'>
+																<span className='text-sm text-gray-500'>
 																	{outcome}
 																</span>
 															</div>
@@ -343,10 +343,10 @@ export default function ServicesPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Proven Results
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our track record speaks for itself. We&apos;ve helped dozens of
 							companies successfully establish and scale their operations across the
 							GCC region.
@@ -367,10 +367,10 @@ export default function ServicesPage() {
 										<div className='text-4xl font-bold text-primary mb-2'>
 											{metric.metric}
 										</div>
-										<div className='text-lg font-semibold text-gray-900 mb-2'>
+										<div className='text-lg font-semibold text-gray-300 mb-2'>
 											{metric.label}
 										</div>
-										<p className='text-sm text-gray-600'>
+										<p className='text-sm text-gray-500'>
 											{metric.description}
 										</p>
 									</CardContent>
@@ -391,10 +391,10 @@ export default function ServicesPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 sm:text-4xl mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 sm:text-4xl mb-6'>
 								Tailored to Your Industry & Stage
 							</h2>
-							<p className='text-lg text-gray-600 mb-6'>
+							<p className='text-lg text-gray-500 mb-6'>
 								While our four-phase model provides a proven framework, we customize
 								our approach based on your specific industry, company stage, and
 								strategic objectives.
@@ -403,10 +403,10 @@ export default function ServicesPage() {
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
 									<div>
-										<strong className='text-gray-900'>
+										<strong className='text-gray-300'>
 											Industry Expertise:
 										</strong>
-										<span className='text-gray-600 ml-1'>
+										<span className='text-gray-500 ml-1'>
 											Deep knowledge across energy, health, sustainability,
 											and future economy sectors
 										</span>
@@ -415,10 +415,10 @@ export default function ServicesPage() {
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
 									<div>
-										<strong className='text-gray-900'>
+										<strong className='text-gray-300'>
 											Stage Flexibility:
 										</strong>
-										<span className='text-gray-600 ml-1'>
+										<span className='text-gray-500 ml-1'>
 											Support from early-stage startups to established
 											corporations
 										</span>
@@ -427,10 +427,10 @@ export default function ServicesPage() {
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
 									<div>
-										<strong className='text-gray-900'>
+										<strong className='text-gray-300'>
 											Cultural Integration:
 										</strong>
-										<span className='text-gray-600 ml-1'>
+										<span className='text-gray-500 ml-1'>
 											Ensure authentic market fit and sustainable local
 											relationships
 										</span>
@@ -449,7 +449,7 @@ export default function ServicesPage() {
 							viewport={{ once: true }}
 							className='bg-white rounded-2xl p-8 shadow-lg'
 						>
-							<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+							<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 								Partnership Inquiry Process
 							</h3>
 							<div className='space-y-6'>
@@ -458,10 +458,10 @@ export default function ServicesPage() {
 										1
 									</div>
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Initial Consultation
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											30-minute discovery call to understand your objectives
 											and assess market fit
 										</p>
@@ -472,10 +472,10 @@ export default function ServicesPage() {
 										2
 									</div>
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Strategic Assessment
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Comprehensive analysis of your technology, market
 											opportunity, and expansion strategy
 										</p>
@@ -486,10 +486,10 @@ export default function ServicesPage() {
 										3
 									</div>
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Customized Proposal
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Tailored partnership structure with clear milestones,
 											timelines, and investment requirements
 										</p>
@@ -500,10 +500,10 @@ export default function ServicesPage() {
 										4
 									</div>
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Partnership Launch
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Begin execution with dedicated team support and regular
 											milestone tracking
 										</p>

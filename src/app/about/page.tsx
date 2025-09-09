@@ -143,7 +143,7 @@ export default function AboutPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-br from-primary via-primary/90 to-accent text-white'>
+			<section className='py-24 sm:py-32 bg-gradient-to-br from-primary to-accent text-white'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -187,13 +187,13 @@ export default function AboutPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>Our Mission</h2>
-							<p className='text-lg text-gray-600 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>Our Mission</h2>
+							<p className='text-lg text-gray-500 mb-6'>
 								To be the definitive strategic execution partner for innovative
 								companies entering the GCC market, providing end-to-end support that
 								transforms market entry challenges into competitive advantages.
 							</p>
-							<p className='text-gray-600'>
+							<p className='text-gray-500'>
 								We believe that successful market expansion requires more than just
 								capital and good intentions - it demands deep local expertise,
 								strategic partnerships, and hands-on execution support throughout
@@ -207,13 +207,13 @@ export default function AboutPage() {
 							transition={{ duration: 0.6, delay: 0.2 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>Our Vision</h2>
-							<p className='text-lg text-gray-600 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>Our Vision</h2>
+							<p className='text-lg text-gray-500 mb-6'>
 								To establish the GCC as the global hub for technological innovation
 								and entrepreneurship, where the world&apos;s most promising
 								companies achieve accelerated growth and create lasting impact.
 							</p>
-							<p className='text-gray-600'>
+							<p className='text-gray-500'>
 								Through our comprehensive support ecosystem, we envision a future
 								where breakthrough technologies seamlessly integrate into the
 								GCC&apos;s economic transformation, driving Vision 2030 objectives
@@ -234,10 +234,10 @@ export default function AboutPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							The GCC Opportunity
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							The Gulf Cooperation Council represents one of the world&apos;s most
 							dynamic economic regions, with unprecedented investment in innovation
 							and diversification.
@@ -256,13 +256,13 @@ export default function AboutPage() {
 								<Card className='h-full'>
 									<CardContent className='p-6 text-center'>
 										<stat.icon className='h-12 w-12 text-primary mx-auto mb-4' />
-										<div className='text-3xl font-bold text-gray-900 mb-2'>
+										<div className='text-3xl font-bold text-gray-300 mb-2'>
 											{stat.metric}
 										</div>
 										<div className='text-lg font-semibold text-gray-700 mb-2'>
 											{stat.label}
 										</div>
-										<p className='text-sm text-gray-600'>{stat.description}</p>
+										<p className='text-sm text-gray-500'>{stat.description}</p>
 									</CardContent>
 								</Card>
 							</motion.div>
@@ -282,10 +282,10 @@ export default function AboutPage() {
 								<Card className='h-full hover:shadow-lg transition-shadow duration-300'>
 									<CardContent className='p-6'>
 										<opportunity.icon className='h-8 w-8 text-primary mb-4' />
-										<h3 className='text-xl font-semibold text-gray-900 mb-3'>
+										<h3 className='text-xl font-semibold text-gray-300 mb-3'>
 											{opportunity.title}
 										</h3>
-										<p className='text-gray-600'>{opportunity.description}</p>
+										<p className='text-gray-500'>{opportunity.description}</p>
 									</CardContent>
 								</Card>
 							</motion.div>
@@ -304,10 +304,10 @@ export default function AboutPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 sm:text-4xl mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 sm:text-4xl mb-6'>
 								Why Saudi Arabia is Our Strategic Focus
 							</h2>
-							<p className='text-lg text-gray-600 mb-6'>
+							<p className='text-lg text-gray-500 mb-6'>
 								Saudi Arabia represents 50% of the GCC&apos;s GDP and is undergoing
 								the world&apos;s most ambitious economic transformation through
 								Vision 2030. This creates unprecedented opportunities for innovative
@@ -316,28 +316,28 @@ export default function AboutPage() {
 							<div className='space-y-4 mb-8'>
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										<strong>$500B+ in megaprojects:</strong> NEOM, Red Sea
 										Project, QIDDIYA, and other Vision 2030 initiatives
 									</p>
 								</div>
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										<strong>Government commitment:</strong> $50B+ allocated
 										annually to diversification efforts
 									</p>
 								</div>
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										<strong>Strategic location:</strong> Gateway to 2 billion
 										consumers across MENA, Africa, and Asia
 									</p>
 								</div>
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										<strong>Business-friendly reforms:</strong> 100% foreign
 										ownership, streamlined regulations, and investment
 										incentives
@@ -356,42 +356,42 @@ export default function AboutPage() {
 							viewport={{ once: true }}
 							className='bg-gradient-to-br from-primary/10 to-accent/10 rounded-2xl p-8'
 						>
-							<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+							<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 								Vision 2030 Alignment
 							</h3>
 							<div className='space-y-6'>
 								<div>
-									<h4 className='font-semibold text-gray-900 mb-2'>
+									<h4 className='font-semibold text-gray-300 mb-2'>
 										Economic Diversification
 									</h4>
-									<p className='text-gray-600 text-sm'>
+									<p className='text-gray-500 text-sm'>
 										Reducing oil dependency through technology, tourism,
 										entertainment, and renewable energy sectors
 									</p>
 								</div>
 								<div>
-									<h4 className='font-semibold text-gray-900 mb-2'>
+									<h4 className='font-semibold text-gray-300 mb-2'>
 										Private Sector Growth
 									</h4>
-									<p className='text-gray-600 text-sm'>
+									<p className='text-gray-500 text-sm'>
 										Increasing private sector contribution to GDP from 40% to
 										65% by 2030
 									</p>
 								</div>
 								<div>
-									<h4 className='font-semibold text-gray-900 mb-2'>
+									<h4 className='font-semibold text-gray-300 mb-2'>
 										Innovation Ecosystem
 									</h4>
-									<p className='text-gray-600 text-sm'>
+									<p className='text-gray-500 text-sm'>
 										Building world-class research institutes, innovation hubs,
 										and technology partnerships
 									</p>
 								</div>
 								<div>
-									<h4 className='font-semibold text-gray-900 mb-2'>
+									<h4 className='font-semibold text-gray-300 mb-2'>
 										Foreign Investment
 									</h4>
-									<p className='text-gray-600 text-sm'>
+									<p className='text-gray-500 text-sm'>
 										Targeting $427B in foreign direct investment by 2030 through
 										strategic initiatives
 									</p>
@@ -412,10 +412,10 @@ export default function AboutPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							What Sets Us Apart
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our approach combines deep local expertise with proven international
 							business practices, ensuring your expansion is both strategically sound
 							and culturally aligned.
@@ -434,10 +434,10 @@ export default function AboutPage() {
 								<Card className='h-full text-center'>
 									<CardContent className='p-8'>
 										<value.icon className='h-12 w-12 text-primary mx-auto mb-6' />
-										<h3 className='text-xl font-semibold text-gray-900 mb-4'>
+										<h3 className='text-xl font-semibold text-gray-300 mb-4'>
 											{value.title}
 										</h3>
-										<p className='text-gray-600'>{value.description}</p>
+										<p className='text-gray-500'>{value.description}</p>
 									</CardContent>
 								</Card>
 							</motion.div>
@@ -456,10 +456,10 @@ export default function AboutPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Leadership Team
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our leadership brings together decades of experience in international
 							business expansion, GCC market development, and technology
 							commercialization. Combined, they bring over 35 years of expertise in
@@ -493,19 +493,19 @@ export default function AboutPage() {
 												</div>
 											</div>
 											<div className='text-center sm:text-left flex-1'>
-												<h3 className='text-2xl font-bold text-gray-900 mb-2'>
+												<h3 className='text-2xl font-bold text-gray-300 mb-2'>
 													{member.name}
 												</h3>
 												<p className='text-lg font-semibold text-primary mb-2'>
 													{member.title}
 												</p>
-												<div className='flex items-center justify-center sm:justify-start gap-2 text-gray-600 mb-2'>
+												<div className='flex items-center justify-center sm:justify-start gap-2 text-gray-500 mb-2'>
 													<Calendar className='w-4 h-4' />
 													<span className='text-sm'>
 														{member.experience}
 													</span>
 												</div>
-												<div className='flex items-center justify-center sm:justify-start gap-2 text-gray-600'>
+												<div className='flex items-center justify-center sm:justify-start gap-2 text-gray-500'>
 													<GraduationCap className='w-4 h-4' />
 													<span className='text-sm'>
 														{member.education}
@@ -515,13 +515,13 @@ export default function AboutPage() {
 										</div>
 
 										{/* Biography */}
-										<p className='text-gray-600 mb-6 leading-relaxed'>
+										<p className='text-gray-500 mb-6 leading-relaxed'>
 											{member.bio}
 										</p>
 
 										{/* Expertise */}
 										<div className='mb-6'>
-											<h4 className='font-semibold text-gray-900 mb-3'>
+											<h4 className='font-semibold text-gray-300 mb-3'>
 												Core Expertise
 											</h4>
 											<div className='flex flex-wrap gap-2'>
@@ -538,7 +538,7 @@ export default function AboutPage() {
 
 										{/* Previous Roles */}
 										{/* <div className='mb-6'>
-											<h4 className='font-semibold text-gray-900 mb-3'>
+											<h4 className='font-semibold text-gray-300 mb-3'>
 												Career Highlights
 											</h4>
 											<div className='space-y-2'>
@@ -550,7 +550,7 @@ export default function AboutPage() {
 															className='flex items-start gap-2'
 														>
 															<div className='w-1.5 h-1.5 rounded-full bg-primary mt-2 flex-shrink-0' />
-															<span className='text-sm text-gray-600'>
+															<span className='text-sm text-gray-500'>
 																{role}
 															</span>
 														</div>
@@ -588,10 +588,10 @@ export default function AboutPage() {
 					>
 						<Card className='max-w-3xl mx-auto bg-gradient-to-br from-primary/5 to-accent/5'>
 							<CardContent className='p-8'>
-								<h3 className='text-xl font-semibold text-gray-900 mb-4'>
+								<h3 className='text-xl font-semibold text-gray-300 mb-4'>
 									Advisory Network & Extended Team
 								</h3>
-								<p className='text-gray-600 mb-6'>
+								<p className='text-gray-500 mb-6'>
 									Beyond our core leadership, Apex Ventures leverages a robust
 									network of strategic advisors, industry experts, and regional
 									partners across the GCC. This extended ecosystem includes former

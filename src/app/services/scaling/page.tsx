@@ -212,10 +212,10 @@ export default function ScalingPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Accelerated Commercial Growth
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Phase 3 transforms your validated technology into a commercially
 							successful business through systematic customer acquisition and
 							operational excellence.
@@ -236,10 +236,10 @@ export default function ScalingPage() {
 										<div className='text-3xl font-bold text-emerald-600 mb-2'>
 											{outcome.metric}
 										</div>
-										<h3 className='text-lg font-semibold text-gray-900 mb-2'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-2'>
 											{outcome.title}
 										</h3>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											{outcome.description}
 										</p>
 									</CardContent>
@@ -260,10 +260,10 @@ export default function ScalingPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Comprehensive Scaling Support
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our Phase 3 services combine strategic customer acquisition with
 							hands-on operational support to drive sustainable commercial growth.
 						</p>
@@ -285,10 +285,10 @@ export default function ScalingPage() {
 												<service.icon className='h-6 w-6 text-emerald-600' />
 											</div>
 											<div className='flex-1'>
-												<h3 className='text-xl font-semibold text-gray-900 mb-2'>
+												<h3 className='text-xl font-semibold text-gray-300 mb-2'>
 													{service.title}
 												</h3>
-												<p className='text-gray-600 mb-4'>
+												<p className='text-gray-500 mb-4'>
 													{service.description}
 												</p>
 												<div className='flex items-center gap-2 mb-4'>
@@ -306,7 +306,7 @@ export default function ScalingPage() {
 													className='flex items-start gap-2'
 												>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-sm text-gray-600'>
+													<span className='text-sm text-gray-500'>
 														{detail}
 													</span>
 												</div>
@@ -330,10 +330,10 @@ export default function ScalingPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Strategic Customer Segments
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							We leverage our extensive network to connect you with the right
 							customers across different market segments in the GCC region.
 						</p>
@@ -350,16 +350,16 @@ export default function ScalingPage() {
 							>
 								<Card className='h-full'>
 									<CardContent className='p-6'>
-										<h3 className='text-lg font-semibold text-gray-900 mb-3'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-3'>
 											{segment.segment}
 										</h3>
-										<p className='text-gray-600 mb-4'>{segment.description}</p>
+										<p className='text-gray-500 mb-4'>{segment.description}</p>
 										<div className='space-y-3'>
 											<div>
 												<span className='font-medium text-gray-700'>
 													Approach:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{segment.approach}
 												</p>
 											</div>
@@ -367,7 +367,7 @@ export default function ScalingPage() {
 												<span className='font-medium text-gray-700'>
 													Examples:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{segment.examples}
 												</p>
 											</div>
@@ -390,10 +390,10 @@ export default function ScalingPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Venture-as-a-Service Model
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our unique operational support model provides dedicated resources to
 							accelerate your business growth while maintaining focus on your core
 							technology and vision.
@@ -411,7 +411,7 @@ export default function ScalingPage() {
 							>
 								<Card className='h-full'>
 									<CardContent className='p-6'>
-										<h3 className='text-lg font-semibold text-gray-900 mb-4'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-4'>
 											{category.category}
 										</h3>
 										<div className='space-y-2'>
@@ -421,7 +421,7 @@ export default function ScalingPage() {
 													className='flex items-start gap-2'
 												>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-sm text-gray-600'>
+													<span className='text-sm text-gray-500'>
 														{service}
 													</span>
 												</div>
@@ -445,10 +445,10 @@ export default function ScalingPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>
 								Strategic Communications
 							</h2>
-							<p className='text-lg text-gray-600 mb-8'>
+							<p className='text-lg text-gray-500 mb-8'>
 								Build thought leadership and brand awareness in the GCC market
 								through strategic positioning and targeted communications campaigns.
 							</p>
@@ -457,10 +457,10 @@ export default function ScalingPage() {
 								<div className='flex items-start gap-3'>
 									<Megaphone className='h-5 w-5 text-emerald-600 mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Brand Positioning
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Develop compelling messaging that resonates with GCC
 											stakeholders
 										</p>
@@ -469,10 +469,10 @@ export default function ScalingPage() {
 								<div className='flex items-start gap-3'>
 									<Globe className='h-5 w-5 text-emerald-600 mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Media Relations
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Strategic media placements and thought leadership
 											articles
 										</p>
@@ -481,10 +481,10 @@ export default function ScalingPage() {
 								<div className='flex items-start gap-3'>
 									<Users className='h-5 w-5 text-emerald-600 mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Industry Events
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Speaking opportunities and strategic conference
 											participation
 										</p>
@@ -499,10 +499,10 @@ export default function ScalingPage() {
 							transition={{ duration: 0.6, delay: 0.2 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>
 								Government Relations
 							</h2>
-							<p className='text-lg text-gray-600 mb-8'>
+							<p className='text-lg text-gray-500 mb-8'>
 								Navigate the regulatory environment and build strategic partnerships
 								with government entities to accelerate your business growth.
 							</p>
@@ -511,10 +511,10 @@ export default function ScalingPage() {
 								<div className='flex items-start gap-3'>
 									<Building className='h-5 w-5 text-emerald-600 mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Regulatory Navigation
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Ongoing compliance management and regulatory advocacy
 										</p>
 									</div>
@@ -522,10 +522,10 @@ export default function ScalingPage() {
 								<div className='flex items-start gap-3'>
 									<Handshake className='h-5 w-5 text-emerald-600 mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Stakeholder Engagement
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											High-level introductions to key government
 											decision-makers
 										</p>
@@ -534,10 +534,10 @@ export default function ScalingPage() {
 								<div className='flex items-start gap-3'>
 									<Target className='h-5 w-5 text-emerald-600 mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Policy Participation
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Involvement in policy development and industry working
 											groups
 										</p>
@@ -559,38 +559,38 @@ export default function ScalingPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>
 								Investment & Timeline
 							</h2>
-							<p className='text-lg text-gray-600 mb-8'>
+							<p className='text-lg text-gray-500 mb-8'>
 								Phase 3 typically spans 6-12 months with an investment range of
 								$500K-$2M, scaling with your business growth and market traction.
 							</p>
 
 							<div className='space-y-6'>
 								<div className='border-l-4 border-emerald-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>
+									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 1-3: Foundation
 									</h3>
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										Customer acquisition strategy, team scaling, and operational
 										systems
 									</p>
 								</div>
 								<div className='border-l-4 border-emerald-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>
+									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 4-8: Acceleration
 									</h3>
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										Active customer engagement, revenue generation, and market
 										expansion
 									</p>
 								</div>
 								<div className='border-l-4 border-emerald-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>
+									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 9-12: Optimization
 									</h3>
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										Process optimization, scalability enhancement, and Phase 4
 										preparation
 									</p>
@@ -606,7 +606,7 @@ export default function ScalingPage() {
 						>
 							<Card className='bg-gradient-to-br from-emerald-50 to-emerald-100 border-emerald-200'>
 								<CardContent className='p-8'>
-									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+									<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 										Phase 3 Deliverables
 									</h3>
 									<div className='space-y-4'>

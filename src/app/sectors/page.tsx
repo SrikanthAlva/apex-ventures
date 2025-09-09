@@ -252,10 +252,10 @@ export default function SectorsPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Unprecedented Market Opportunity
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							The GCC represents one of the world&apos;s most dynamic economic
 							regions, with massive government investment driving transformation
 							across key sectors.
@@ -276,10 +276,10 @@ export default function SectorsPage() {
 										<div className='text-3xl font-bold text-primary mb-2'>
 											{stat.metric}
 										</div>
-										<h3 className='text-lg font-semibold text-gray-900 mb-2'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-2'>
 											{stat.label}
 										</h3>
-										<p className='text-gray-600 text-sm'>{stat.description}</p>
+										<p className='text-gray-500 text-sm'>{stat.description}</p>
 									</CardContent>
 								</Card>
 							</motion.div>
@@ -298,10 +298,10 @@ export default function SectorsPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Our Focus Sectors
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							We specialize in high-growth sectors critical to the GCC&apos;s economic
 							transformation and Vision 2030 objectives, where our expertise delivers
 							maximum impact.
@@ -329,43 +329,43 @@ export default function SectorsPage() {
 														<sector.icon className='h-8 w-8' />
 													</div>
 													<div className='flex-1'>
-														<h3 className='text-2xl font-bold text-gray-900 mb-3'>
+														<h3 className='text-2xl font-bold text-gray-300 mb-3'>
 															{sector.title}
 														</h3>
-														<p className='text-gray-600 mb-6'>
+														<p className='text-gray-500 mb-6'>
 															{sector.description}
 														</p>
 														<div className='grid grid-cols-1 md:grid-cols-3 gap-4 mb-6'>
 															<div>
 																<div className='flex items-center gap-2 mb-1'>
 																	<DollarSign className='h-4 w-4 text-gray-500' />
-																	<span className='font-semibold text-gray-900'>
+																	<span className='font-semibold text-gray-300'>
 																		Market Size
 																	</span>
 																</div>
-																<p className='text-gray-600'>
+																<p className='text-gray-500'>
 																	{sector.marketSize}
 																</p>
 															</div>
 															<div>
 																<div className='flex items-center gap-2 mb-1'>
 																	<TrendingUp className='h-4 w-4 text-gray-500' />
-																	<span className='font-semibold text-gray-900'>
+																	<span className='font-semibold text-gray-300'>
 																		Growth Rate
 																	</span>
 																</div>
-																<p className='text-gray-600'>
+																<p className='text-gray-500'>
 																	{sector.growthRate} annually
 																</p>
 															</div>
 															<div>
 																<div className='flex items-center gap-2 mb-1'>
 																	<Users className='h-4 w-4 text-gray-500' />
-																	<span className='font-semibold text-gray-900'>
+																	<span className='font-semibold text-gray-300'>
 																		Key Players
 																	</span>
 																</div>
-																<p className='text-gray-600 text-sm'>
+																<p className='text-gray-500 text-sm'>
 																	{sector.keyPlayers}
 																</p>
 															</div>
@@ -381,12 +381,12 @@ export default function SectorsPage() {
 															className='bg-white rounded-lg p-4'
 														>
 															<div className='flex items-center gap-3 mb-2'>
-																<area.icon className='h-5 w-5 text-gray-600' />
-																<h4 className='font-semibold text-gray-900'>
+																<area.icon className='h-5 w-5 text-gray-500' />
+																<h4 className='font-semibold text-gray-300'>
 																	{area.name}
 																</h4>
 															</div>
-															<p className='text-gray-600 text-sm'>
+															<p className='text-gray-500 text-sm'>
 																{area.description}
 															</p>
 														</div>
@@ -396,7 +396,7 @@ export default function SectorsPage() {
 
 											{/* Opportunities */}
 											<div className='bg-white p-8'>
-												<h4 className='font-semibold text-gray-900 mb-4'>
+												<h4 className='font-semibold text-gray-300 mb-4'>
 													Key Opportunities
 												</h4>
 												<div className='space-y-3'>
@@ -407,7 +407,7 @@ export default function SectorsPage() {
 																className='flex items-start gap-2'
 															>
 																<div className='w-2 h-2 rounded-full bg-emerald-500 mt-2 flex-shrink-0' />
-																<p className='text-gray-600 text-sm'>
+																<p className='text-gray-500 text-sm'>
 																	{opportunity}
 																</p>
 															</div>
@@ -434,10 +434,10 @@ export default function SectorsPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Strategic Investment Priorities
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Understanding where the GCC is directing its massive investment
 							commitments helps identify the most promising opportunities for
 							international companies.
@@ -456,19 +456,19 @@ export default function SectorsPage() {
 								<Card className='h-full hover:shadow-lg transition-shadow duration-300'>
 									<CardContent className='p-6'>
 										<div className='flex items-start justify-between mb-4'>
-											<h3 className='text-lg font-semibold text-gray-900'>
+											<h3 className='text-lg font-semibold text-gray-300'>
 												{priority.priority}
 											</h3>
 											<span className='text-2xl font-bold text-primary'>
 												{priority.investment}
 											</span>
 										</div>
-										<p className='text-gray-600 mb-4'>{priority.focus}</p>
+										<p className='text-gray-500 mb-4'>{priority.focus}</p>
 										<div className='flex items-center gap-2'>
 											<span className='text-sm font-medium text-gray-700'>
 												Timeline:
 											</span>
-											<span className='text-sm text-gray-600'>
+											<span className='text-sm text-gray-500'>
 												{priority.timeline}
 											</span>
 										</div>
@@ -490,10 +490,10 @@ export default function SectorsPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>
 								Sector-Specific Expertise
 							</h2>
-							<p className='text-lg text-gray-600 mb-8'>
+							<p className='text-lg text-gray-500 mb-8'>
 								Our deep understanding of each sector&apos;s unique challenges,
 								regulatory environment, and key stakeholders enables us to provide
 								targeted support for your expansion.
@@ -503,10 +503,10 @@ export default function SectorsPage() {
 								<div className='flex items-start gap-3'>
 									<Building className='h-5 w-5 text-primary mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Industry Relationships
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Established connections with sector leaders, government
 											entities, and key decision-makers
 										</p>
@@ -515,10 +515,10 @@ export default function SectorsPage() {
 								<div className='flex items-start gap-3'>
 									<Lightbulb className='h-5 w-5 text-primary mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Technical Knowledge
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Deep understanding of sector-specific technologies,
 											trends, and competitive landscapes
 										</p>
@@ -527,10 +527,10 @@ export default function SectorsPage() {
 								<div className='flex items-start gap-3'>
 									<Users className='h-5 w-5 text-primary mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Regulatory Expertise
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Comprehensive knowledge of sector-specific regulations,
 											compliance requirements, and licensing
 										</p>
@@ -539,10 +539,10 @@ export default function SectorsPage() {
 								<div className='flex items-start gap-3'>
 									<TrendingUp className='h-5 w-5 text-primary mt-1 flex-shrink-0' />
 									<div>
-										<h4 className='font-semibold text-gray-900 mb-1'>
+										<h4 className='font-semibold text-gray-300 mb-1'>
 											Market Intelligence
 										</h4>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											Real-time insights into market dynamics, investment
 											flows, and emerging opportunities
 										</p>
@@ -559,10 +559,10 @@ export default function SectorsPage() {
 						>
 							<Card className='bg-gradient-to-br from-primary/10 to-accent/10 border-primary/20'>
 								<CardContent className='p-8'>
-									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+									<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 										Don&apos;t See Your Sector?
 									</h3>
-									<p className='text-gray-600 mb-6'>
+									<p className='text-gray-500 mb-6'>
 										While we specialize in these four key sectors, we work with
 										innovative companies across many industries. Our proven
 										framework adapts to different market dynamics and regulatory

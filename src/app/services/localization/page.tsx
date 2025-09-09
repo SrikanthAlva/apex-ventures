@@ -200,10 +200,10 @@ export default function LocalizationPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Deep Market Integration Results
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Phase 2 focuses on building authentic local relationships and validating
 							your technology through partnerships with the region&apos;s most
 							respected institutions and companies.
@@ -224,10 +224,10 @@ export default function LocalizationPage() {
 										<div className='text-3xl font-bold text-amber-600 mb-2'>
 											{outcome.metric}
 										</div>
-										<h3 className='text-lg font-semibold text-gray-900 mb-2'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-2'>
 											{outcome.title}
 										</h3>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											{outcome.description}
 										</p>
 									</CardContent>
@@ -248,10 +248,10 @@ export default function LocalizationPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Comprehensive Localization Services
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our Phase 2 services ensure your technology is validated and your
 							operations are deeply integrated into the local business ecosystem.
 						</p>
@@ -273,10 +273,10 @@ export default function LocalizationPage() {
 												<service.icon className='h-6 w-6 text-amber-600' />
 											</div>
 											<div className='flex-1'>
-												<h3 className='text-xl font-semibold text-gray-900 mb-2'>
+												<h3 className='text-xl font-semibold text-gray-300 mb-2'>
 													{service.title}
 												</h3>
-												<p className='text-gray-600 mb-4'>
+												<p className='text-gray-500 mb-4'>
 													{service.description}
 												</p>
 												<div className='flex items-center gap-2 mb-4'>
@@ -294,7 +294,7 @@ export default function LocalizationPage() {
 													className='flex items-start gap-2'
 												>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-sm text-gray-600'>
+													<span className='text-sm text-gray-500'>
 														{detail}
 													</span>
 												</div>
@@ -318,10 +318,10 @@ export default function LocalizationPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Premier Research Partnerships
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Access world-class research facilities and collaborate with leading
 							institutions to validate and enhance your technology solutions.
 						</p>
@@ -340,7 +340,7 @@ export default function LocalizationPage() {
 									<CardContent className='p-6'>
 										<div className='flex items-start gap-3 mb-4'>
 											<Lightbulb className='h-6 w-6 text-amber-600 mt-1 flex-shrink-0' />
-											<h3 className='text-lg font-semibold text-gray-900'>
+											<h3 className='text-lg font-semibold text-gray-300'>
 												{partner.name}
 											</h3>
 										</div>
@@ -349,7 +349,7 @@ export default function LocalizationPage() {
 												<span className='font-medium text-gray-700'>
 													Focus Areas:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{partner.focus}
 												</p>
 											</div>
@@ -357,7 +357,7 @@ export default function LocalizationPage() {
 												<span className='font-medium text-gray-700'>
 													Capabilities:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{partner.capabilities}
 												</p>
 											</div>
@@ -365,7 +365,7 @@ export default function LocalizationPage() {
 												<span className='font-medium text-gray-700'>
 													Partnership Programs:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{partner.programs}
 												</p>
 											</div>
@@ -388,10 +388,10 @@ export default function LocalizationPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							National Champion Partnerships
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Pilot your solutions with the region&apos;s largest and most influential
 							companies, gaining credibility and commercial validation.
 						</p>
@@ -411,7 +411,7 @@ export default function LocalizationPage() {
 										<div className='flex items-start gap-3 mb-4'>
 											<Award className='h-6 w-6 text-amber-600 mt-1 flex-shrink-0' />
 											<div>
-												<h3 className='text-lg font-semibold text-gray-900'>
+												<h3 className='text-lg font-semibold text-gray-300'>
 													{champion.company}
 												</h3>
 												<p className='text-amber-600 font-medium'>
@@ -424,7 +424,7 @@ export default function LocalizationPage() {
 												<span className='font-medium text-gray-700'>
 													Opportunities:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{champion.opportunities}
 												</p>
 											</div>
@@ -432,7 +432,7 @@ export default function LocalizationPage() {
 												<span className='font-medium text-gray-700'>
 													Partnership Types:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{champion.partnership}
 												</p>
 											</div>
@@ -455,10 +455,10 @@ export default function LocalizationPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>
 								Strategic Localization Process
 							</h2>
-							<p className='text-lg text-gray-600 mb-8'>
+							<p className='text-lg text-gray-500 mb-8'>
 								Our systematic approach ensures authentic integration into the GCC
 								ecosystem while validating your technology for regional market
 								requirements.
@@ -466,28 +466,28 @@ export default function LocalizationPage() {
 
 							<div className='space-y-6'>
 								<div className='border-l-4 border-amber-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>
+									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 1-2: Foundation
 									</h3>
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										Research partner identification, facility assessment, and
 										team recruitment initiation
 									</p>
 								</div>
 								<div className='border-l-4 border-amber-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>
+									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 2-4: Partnerships
 									</h3>
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										R&D agreements execution, pilot project structuring, and
 										local team development
 									</p>
 								</div>
 								<div className='border-l-4 border-amber-500 pl-6'>
-									<h3 className='font-semibold text-gray-900 mb-2'>
+									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 4-6: Validation
 									</h3>
-									<p className='text-gray-600'>
+									<p className='text-gray-500'>
 										Technology validation, commercial pilots, and scale-up
 										preparation
 									</p>
@@ -503,59 +503,59 @@ export default function LocalizationPage() {
 						>
 							<Card className='bg-gradient-to-br from-amber-50 to-amber-100 border-amber-200'>
 								<CardContent className='p-8'>
-									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+									<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 										Investment & Outcomes
 									</h3>
 									<div className='space-y-6'>
 										<div>
-											<h4 className='font-semibold text-gray-900 mb-2'>
+											<h4 className='font-semibold text-gray-300 mb-2'>
 												Investment Range
 											</h4>
-											<p className='text-gray-600'>
+											<p className='text-gray-500'>
 												$100K - $500K depending on technology complexity and
 												partnership scope
 											</p>
 										</div>
 										<div>
-											<h4 className='font-semibold text-gray-900 mb-2'>
+											<h4 className='font-semibold text-gray-300 mb-2'>
 												Timeline
 											</h4>
-											<p className='text-gray-600'>
+											<p className='text-gray-500'>
 												3-6 months for complete localization and validation
 											</p>
 										</div>
 										<div>
-											<h4 className='font-semibold text-gray-900 mb-2'>
+											<h4 className='font-semibold text-gray-300 mb-2'>
 												Key Deliverables
 											</h4>
 											<div className='space-y-2'>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Active R&D partnerships
 													</span>
 												</div>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Technology validation reports
 													</span>
 												</div>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Pilot project agreements
 													</span>
 												</div>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Local team establishment
 													</span>
 												</div>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Operational facility setup
 													</span>
 												</div>

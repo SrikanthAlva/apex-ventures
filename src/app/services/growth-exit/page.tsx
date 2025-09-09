@@ -252,10 +252,10 @@ export default function GrowthExitPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Maximum Value Realization
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Phase 4 represents the culmination of your GCC expansion journey,
 							focusing on securing growth capital and strategic exit opportunities
 							that maximize shareholder value.
@@ -276,10 +276,10 @@ export default function GrowthExitPage() {
 										<div className='text-3xl font-bold text-purple-600 mb-2'>
 											{outcome.metric}
 										</div>
-										<h3 className='text-lg font-semibold text-gray-900 mb-2'>
+										<h3 className='text-lg font-semibold text-gray-300 mb-2'>
 											{outcome.title}
 										</h3>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											{outcome.description}
 										</p>
 									</CardContent>
@@ -300,10 +300,10 @@ export default function GrowthExitPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Comprehensive Growth & Exit Services
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Our Phase 4 services leverage exclusive investor relationships and deep
 							market expertise to secure optimal growth capital and exit outcomes.
 						</p>
@@ -325,10 +325,10 @@ export default function GrowthExitPage() {
 												<service.icon className='h-6 w-6 text-purple-600' />
 											</div>
 											<div className='flex-1'>
-												<h3 className='text-xl font-semibold text-gray-900 mb-2'>
+												<h3 className='text-xl font-semibold text-gray-300 mb-2'>
 													{service.title}
 												</h3>
-												<p className='text-gray-600 mb-4'>
+												<p className='text-gray-500 mb-4'>
 													{service.description}
 												</p>
 												<div className='flex items-center gap-2 mb-4'>
@@ -346,7 +346,7 @@ export default function GrowthExitPage() {
 													className='flex items-start gap-2'
 												>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-sm text-gray-600'>
+													<span className='text-sm text-gray-500'>
 														{detail}
 													</span>
 												</div>
@@ -370,10 +370,10 @@ export default function GrowthExitPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Exclusive Investor Network
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							Access the region&apos;s most sophisticated investors through our
 							established relationships with sovereign wealth funds, corporate VCs,
 							and strategic institutional investors.
@@ -393,7 +393,7 @@ export default function GrowthExitPage() {
 									<CardContent className='p-6'>
 										<div className='flex items-start gap-3 mb-4'>
 											<Award className='h-6 w-6 text-purple-600 mt-1 flex-shrink-0' />
-											<h3 className='text-lg font-semibold text-gray-900'>
+											<h3 className='text-lg font-semibold text-gray-300'>
 												{investor.category}
 											</h3>
 										</div>
@@ -402,7 +402,7 @@ export default function GrowthExitPage() {
 												<span className='font-medium text-gray-700'>
 													Examples:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{investor.examples}
 												</p>
 											</div>
@@ -410,7 +410,7 @@ export default function GrowthExitPage() {
 												<span className='font-medium text-gray-700'>
 													Investment Focus:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{investor.focus}
 												</p>
 											</div>
@@ -418,7 +418,7 @@ export default function GrowthExitPage() {
 												<span className='font-medium text-gray-700'>
 													Ticket Size:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{investor.ticketSize}
 												</p>
 											</div>
@@ -426,7 +426,7 @@ export default function GrowthExitPage() {
 												<span className='font-medium text-gray-700'>
 													Advantages:
 												</span>
-												<p className='text-gray-600 text-sm mt-1'>
+												<p className='text-gray-500 text-sm mt-1'>
 													{investor.advantages}
 												</p>
 											</div>
@@ -449,10 +449,10 @@ export default function GrowthExitPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
 							Strategic Exit Pathways
 						</h2>
-						<p className='text-lg text-gray-600 max-w-3xl mx-auto'>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
 							We develop comprehensive exit strategies tailored to your business
 							objectives, market conditions, and stakeholder preferences.
 						</p>
@@ -470,10 +470,10 @@ export default function GrowthExitPage() {
 								<Card className='h-full'>
 									<CardContent className='p-6'>
 										<div className='mb-4'>
-											<h3 className='text-lg font-semibold text-gray-900 mb-2'>
+											<h3 className='text-lg font-semibold text-gray-300 mb-2'>
 												{strategy.strategy}
 											</h3>
-											<p className='text-gray-600 mb-3'>
+											<p className='text-gray-500 mb-3'>
 												{strategy.description}
 											</p>
 											<div className='flex items-center gap-2 mb-4'>
@@ -495,7 +495,7 @@ export default function GrowthExitPage() {
 															className='flex items-start gap-2'
 														>
 															<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-															<span className='text-sm text-gray-600'>
+															<span className='text-sm text-gray-500'>
 																{advantage}
 															</span>
 														</div>
@@ -521,10 +521,10 @@ export default function GrowthExitPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-900 mb-6'>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>
 								Valuation Optimization
 							</h2>
-							<p className='text-lg text-gray-600 mb-8'>
+							<p className='text-lg text-gray-500 mb-8'>
 								Our systematic approach to valuation optimization ensures your
 								company is positioned to achieve maximum market value at exit.
 							</p>
@@ -536,14 +536,14 @@ export default function GrowthExitPage() {
 										className='border-l-4 border-purple-500 pl-6'
 									>
 										<div className='flex items-center justify-between mb-2'>
-											<h3 className='font-semibold text-gray-900'>
+											<h3 className='font-semibold text-gray-300'>
 												{factor.factor}
 											</h3>
 											<span className='text-purple-600 font-medium'>
 												{factor.weight}
 											</span>
 										</div>
-										<p className='text-gray-600 text-sm'>
+										<p className='text-gray-500 text-sm'>
 											{factor.description}
 										</p>
 									</div>
@@ -559,60 +559,60 @@ export default function GrowthExitPage() {
 						>
 							<Card className='bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200'>
 								<CardContent className='p-8'>
-									<h3 className='text-2xl font-bold text-gray-900 mb-6'>
+									<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 										Phase 4 Investment & Timeline
 									</h3>
 									<div className='space-y-6'>
 										<div>
-											<h4 className='font-semibold text-gray-900 mb-2'>
+											<h4 className='font-semibold text-gray-300 mb-2'>
 												Investment Range
 											</h4>
-											<p className='text-gray-600'>
+											<p className='text-gray-500'>
 												$2M+ depending on growth capital requirements and
 												exit strategy complexity
 											</p>
 										</div>
 										<div>
-											<h4 className='font-semibold text-gray-900 mb-2'>
+											<h4 className='font-semibold text-gray-300 mb-2'>
 												Timeline
 											</h4>
-											<p className='text-gray-600'>
+											<p className='text-gray-500'>
 												12+ months for complete growth and exit strategy
 												execution
 											</p>
 										</div>
 										<div>
-											<h4 className='font-semibold text-gray-900 mb-2'>
+											<h4 className='font-semibold text-gray-300 mb-2'>
 												Key Deliverables
 											</h4>
 											<div className='space-y-2'>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Growth capital secured
 													</span>
 												</div>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Strategic partnerships established
 													</span>
 												</div>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Exit readiness achieved
 													</span>
 												</div>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Valuation optimization completed
 													</span>
 												</div>
 												<div className='flex items-start gap-2'>
 													<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
-													<span className='text-gray-600 text-sm'>
+													<span className='text-gray-500 text-sm'>
 														Transaction execution support
 													</span>
 												</div>

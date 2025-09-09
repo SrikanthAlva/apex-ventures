@@ -164,11 +164,11 @@ export function FourPhaseSection() {
 									})()}
 								</div>
 								<div className='flex-1'>
-									<h3 className='text-2xl font-bold text-gray-900 mb-4'>
+									<h3 className='text-2xl font-bold text-gray-300 mb-4'>
 										Phase {phases[activePhase].number}:{' '}
 										{phases[activePhase].title}
 									</h3>
-									<p className='text-gray-600 mb-6'>
+									<p className='text-gray-500 mb-6'>
 										{phases[activePhase].description}
 									</p>
 									<div className='grid grid-cols-2 gap-4 mb-6'>
@@ -210,10 +210,10 @@ export function FourPhaseSection() {
 											{phase.number}
 										</div>
 										<div className='flex-1'>
-											<h3 className='text-lg font-semibold text-gray-900 mb-2'>
+											<h3 className='text-lg font-semibold text-gray-300 mb-2'>
 												{phase.title}
 											</h3>
-											<p className='text-sm text-gray-600 mb-4'>
+											<p className='text-sm text-gray-500 mb-4'>
 												{phase.description}
 											</p>
 											<div className='space-y-2'>
