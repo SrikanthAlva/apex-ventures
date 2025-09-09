@@ -149,7 +149,7 @@ export default function LocalizationPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-br from-amber-500 via-amber-600 to-amber-700 text-white'>
+			<section className='py-24 sm:py-32 bg-gradient-to-br from-emerald-500 via-emerald-600 to-emerald-700 text-white'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -165,7 +165,7 @@ export default function LocalizationPage() {
 						</div>
 						<h1 className='text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl mb-6'>
 							Localization &<br />
-							<span className='text-amber-200'>Technology Validation</span>
+							<span className='text-emerald-200'>Technology Validation</span>
 						</h1>
 						<p className='text-xl leading-8 mb-8 opacity-90'>
 							Embed your operations within the local ecosystem through R&D
@@ -180,7 +180,7 @@ export default function LocalizationPage() {
 							<Button
 								size='lg'
 								variant='outline'
-								className='text-amber-600 border-white hover:bg-white hover:text-amber-600'
+								className='text-emerald-600 border-white hover:bg-white hover:text-emerald-600'
 								asChild
 							>
 								<Link href='/services/market-entry'>Previous: Phase 1</Link>
@@ -221,7 +221,7 @@ export default function LocalizationPage() {
 							>
 								<Card className='text-center h-full'>
 									<CardContent className='p-6'>
-										<div className='text-3xl font-bold text-amber-600 mb-2'>
+										<div className='text-3xl font-bold text-emerald-600 mb-2'>
 											{outcome.metric}
 										</div>
 										<h3 className='text-lg font-semibold text-gray-300 mb-2'>
@@ -269,8 +269,8 @@ export default function LocalizationPage() {
 								<Card className='h-full hover:shadow-lg transition-shadow duration-300'>
 									<CardContent className='p-8'>
 										<div className='flex items-start gap-4 mb-6'>
-											<div className='w-12 h-12 rounded-lg bg-amber-100 flex items-center justify-center flex-shrink-0'>
-												<service.icon className='h-6 w-6 text-amber-600' />
+											<div className='w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center flex-shrink-0'>
+												<service.icon className='h-6 w-6 text-emerald-600' />
 											</div>
 											<div className='flex-1'>
 												<h3 className='text-xl font-semibold text-gray-300 mb-2'>
@@ -280,8 +280,8 @@ export default function LocalizationPage() {
 													{service.description}
 												</p>
 												<div className='flex items-center gap-2 mb-4'>
-													<Clock className='h-4 w-4 text-amber-600' />
-													<span className='text-sm font-medium text-amber-600'>
+													<Clock className='h-4 w-4 text-emerald-600' />
+													<span className='text-sm font-medium text-emerald-600'>
 														{service.timeline}
 													</span>
 												</div>
@@ -339,7 +339,7 @@ export default function LocalizationPage() {
 								<Card className='h-full'>
 									<CardContent className='p-6'>
 										<div className='flex items-start gap-3 mb-4'>
-											<Lightbulb className='h-6 w-6 text-amber-600 mt-1 flex-shrink-0' />
+											<Lightbulb className='h-6 w-6 text-emerald-600 mt-1 flex-shrink-0' />
 											<h3 className='text-lg font-semibold text-gray-300'>
 												{partner.name}
 											</h3>
@@ -409,12 +409,12 @@ export default function LocalizationPage() {
 								<Card className='h-full hover:shadow-lg transition-shadow duration-300'>
 									<CardContent className='p-6'>
 										<div className='flex items-start gap-3 mb-4'>
-											<Award className='h-6 w-6 text-amber-600 mt-1 flex-shrink-0' />
+											<Award className='h-6 w-6 text-emerald-600 mt-1 flex-shrink-0' />
 											<div>
 												<h3 className='text-lg font-semibold text-gray-300'>
 													{champion.company}
 												</h3>
-												<p className='text-amber-600 font-medium'>
+												<p className='text-emerald-600 font-medium'>
 													{champion.sector}
 												</p>
 											</div>
@@ -465,7 +465,7 @@ export default function LocalizationPage() {
 							</p>
 
 							<div className='space-y-6'>
-								<div className='border-l-4 border-amber-500 pl-6'>
+								<div className='border-l-4 border-emerald-500 pl-6'>
 									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 1-2: Foundation
 									</h3>
@@ -474,7 +474,7 @@ export default function LocalizationPage() {
 										team recruitment initiation
 									</p>
 								</div>
-								<div className='border-l-4 border-amber-500 pl-6'>
+								<div className='border-l-4 border-emerald-500 pl-6'>
 									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 2-4: Partnerships
 									</h3>
@@ -483,7 +483,7 @@ export default function LocalizationPage() {
 										local team development
 									</p>
 								</div>
-								<div className='border-l-4 border-amber-500 pl-6'>
+								<div className='border-l-4 border-emerald-500 pl-6'>
 									<h3 className='font-semibold text-gray-300 mb-2'>
 										Months 4-6: Validation
 									</h3>
@@ -501,7 +501,7 @@ export default function LocalizationPage() {
 							transition={{ duration: 0.6, delay: 0.2 }}
 							viewport={{ once: true }}
 						>
-							<Card className='bg-gradient-to-br from-amber-50 to-amber-100 border-amber-200'>
+							<Card className='bg-gradient-to-br from-emerald-50 to-emerald-100 border-emerald-200'>
 								<CardContent className='p-8'>
 									<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 										Investment & Outcomes
@@ -570,7 +570,7 @@ export default function LocalizationPage() {
 			</section>
 
 			{/* Next Phase & CTA */}
-			<section className='py-24 sm:py-32 bg-gradient-to-r from-amber-500 to-amber-700 text-white'>
+			<section className='py-24 sm:py-32 bg-gradient-to-r from-emerald-500 to-emerald-700 text-white'>
 				<Container>
 					<div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
 						<motion.div
@@ -593,7 +593,7 @@ export default function LocalizationPage() {
 								<Button
 									size='lg'
 									variant='outline'
-									className='text-amber-600 border-white hover:bg-white hover:text-amber-600'
+									className='text-emerald-600 border-white hover:bg-white hover:text-emerald-600'
 									asChild
 								>
 									<Link href='/services/scaling'>Next: Phase 3</Link>
@@ -616,7 +616,7 @@ export default function LocalizationPage() {
 							</p>
 							<Button
 								variant='outline'
-								className='text-amber-600 border-white hover:bg-white hover:text-amber-600'
+								className='text-emerald-600 border-white hover:bg-white hover:text-emerald-600'
 								asChild
 							>
 								<Link href='/services/scaling'>

@@ -17,9 +17,9 @@ export const metadata: Metadata = {
 	keywords:
 		'GCC market entry, Saudi Arabia business setup, MENA venture capital, Middle East technology partnerships, Vision 2030 opportunities',
 	icons: {
-		icon: '/logo.jpg',
-		shortcut: '/logo.jpg',
-		apple: '/logo.jpg',
+		icon: '/logo.jpeg',
+		shortcut: '/logo.jpeg',
+		apple: '/logo.jpeg',
 	},
 	openGraph: {
 		title: 'Apex Ventures - Strategic Execution Partner for the GCC',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 			"De-risk and accelerate your expansion journey into the Gulf Cooperation Council. From market entry to strategic exit, we're your dedicated execution partner for the entire growth journey.",
 		images: [
 			{
-				url: '/logo_with_name.jpg',
+				url: '/logo_with_name.png',
 				width: 1200,
 				height: 630,
 				alt: 'Apex Ventures Logo',
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
 		title: 'Apex Ventures - Strategic Execution Partner for the GCC',
 		description:
 			"De-risk and accelerate your expansion journey into the Gulf Cooperation Council. From market entry to strategic exit, we're your dedicated execution partner for the entire growth journey.",
-		images: ['/logo_with_name.jpg'],
+		images: ['/logo_with_name.png'],
 	},
 }
 

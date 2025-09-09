@@ -143,7 +143,7 @@ export default function AboutPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-accent text-white'>
+			<section className='py-24 sm:py-32 bg-primary text-black'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -153,7 +153,7 @@ export default function AboutPage() {
 					>
 						<h1 className='text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl mb-6'>
 							Bridging Innovation with
-							<span className='text-secondary block mt-2'>Strategic Execution</span>
+							<span className='text-accent block mt-2'>Strategic Execution</span>
 						</h1>
 						<p className='text-xl leading-8 mb-8 opacity-90'>
 							We are the dedicated execution partner for technology companies
@@ -184,7 +184,7 @@ export default function AboutPage() {
 						<motion.div
 							initial={{ opacity: 0, x: -20 }}
 							whileInView={{ opacity: 1, x: 0 }}
-							transition={{ duration: 0.6 }}
+							transition={{ duration: 0.2 }}
 							viewport={{ once: true }}
 						>
 							<h2 className='text-3xl font-bold text-gray-300 mb-6'>Our Mission</h2>
@@ -609,7 +609,7 @@ export default function AboutPage() {
 			</section>
 
 			{/* CTA Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-r from-primary to-accent text-white'>
+			<section className='py-24 sm:py-32 bg-gray-200 text-black'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -618,7 +618,7 @@ export default function AboutPage() {
 						viewport={{ once: true }}
 						className='text-center'
 					>
-						<h2 className='text-3xl font-bold tracking-tight sm:text-4xl mb-6'>
+						<h2 className='text-3xl text-accent font-bold tracking-tight sm:text-4xl mb-6'>
 							Ready to Expand into the GCC?
 						</h2>
 						<p className='text-xl mb-8 opacity-90 max-w-2xl mx-auto'>

@@ -33,8 +33,8 @@ const phases = [
 			'Initial capital secured',
 		],
 		slug: 'market-entry',
-		color: 'from-blue-500 to-blue-600',
-		bgColor: 'bg-blue-50',
+		color: 'from-primary to-accent',
+		bgColor: 'bg-gray-50',
 	},
 	{
 		number: '02',
@@ -51,8 +51,8 @@ const phases = [
 			'Local team recruited',
 		],
 		slug: 'localization',
-		color: 'from-amber-500 to-amber-600',
-		bgColor: 'bg-amber-50',
+		color: 'from-primary to-accent',
+		bgColor: 'bg-gray-50',
 	},
 	{
 		number: '03',
@@ -69,8 +69,8 @@ const phases = [
 			'Market presence established',
 		],
 		slug: 'scaling',
-		color: 'from-emerald-500 to-emerald-600',
-		bgColor: 'bg-emerald-50',
+		color: 'from-primary to-accent',
+		bgColor: 'bg-gray-50',
 	},
 	{
 		number: '04',
@@ -87,8 +87,8 @@ const phases = [
 			'Maximum value realization',
 		],
 		slug: 'growth-exit',
-		color: 'from-purple-500 to-purple-600',
-		bgColor: 'bg-purple-50',
+		color: 'from-primary to-accent',
+		bgColor: 'bg-gray-50',
 	},
 ]
 
@@ -146,7 +146,7 @@ export default function ServicesPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-accent text-white'>
+			<section className='py-24 sm:py-32 bg-primary text-black'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -156,7 +156,7 @@ export default function ServicesPage() {
 					>
 						<h1 className='text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl mb-6'>
 							Full-Lifecycle Partnership for
-							<span className='text-secondary block mt-2'>GCC Market Success</span>
+							<span className='text-accent block mt-2'>GCC Market Success</span>
 						</h1>
 						<p className='text-xl leading-8 mb-8 opacity-90'>
 							From initial market entry through strategic exit, our comprehensive
@@ -176,7 +176,7 @@ export default function ServicesPage() {
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
-						transition={{ duration: 0.6 }}
+						transition={{ duration: 0.2 }}
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
@@ -305,7 +305,7 @@ export default function ServicesPage() {
 																key={outcomeIndex}
 																className='flex items-start gap-2'
 															>
-																<CheckCircle className='h-4 w-4 text-emerald-500 mt-0.5 flex-shrink-0' />
+																<CheckCircle className='h-4 w-4 text-accent mt-0.5 flex-shrink-0' />
 																<span className='text-sm text-gray-500'>
 																	{outcome}
 																</span>
@@ -516,7 +516,7 @@ export default function ServicesPage() {
 			</section>
 
 			{/* CTA Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-r from-primary to-accent text-white'>
+			<section className='py-24 sm:py-32 bg-gray-200 text-black'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -525,7 +525,7 @@ export default function ServicesPage() {
 						viewport={{ once: true }}
 						className='text-center'
 					>
-						<h2 className='text-3xl font-bold tracking-tight sm:text-4xl mb-6'>
+						<h2 className='text-3xl text-accent font-bold tracking-tight sm:text-4xl mb-6'>
 							Ready to Transform Your GCC Expansion?
 						</h2>
 						<p className='text-xl mb-8 opacity-90 max-w-2xl mx-auto'>

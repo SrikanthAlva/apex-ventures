@@ -41,11 +41,11 @@ export function Footer() {
 					<div className='space-y-8'>
 						<div>
 							<Image
-								src='/logo_with_name.jpg'
+								src='/logo_with_name.png'
 								alt='Apex Ventures'
 								width={200}
 								height={45}
-								className='h-11 w-auto invert'
+								className='h-11 w-auto'
 							/>
 							<p className='mt-4 text-sm leading-6 text-secondary-foreground'>
 								Strategic execution partner for technology companies entering the

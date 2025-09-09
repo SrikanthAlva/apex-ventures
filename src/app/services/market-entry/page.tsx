@@ -154,7 +154,7 @@ export default function MarketEntryPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-br from-blue-500 via-blue-600 to-blue-700 text-white'>
+			<section className='py-24 sm:py-32 bg-gradient-to-br from-emerald-500 via-emerald-600 to-emerald-700 text-white'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -170,7 +170,7 @@ export default function MarketEntryPage() {
 						</div>
 						<h1 className='text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl mb-6'>
 							Market Entry &<br />
-							<span className='text-blue-200'>Capital Formation</span>
+							<span className='text-emerald-200'>Capital Formation</span>
 						</h1>
 						<p className='text-xl leading-8 mb-8 opacity-90'>
 							Fast-tracked commercial registration with 100% foreign ownership, RDIA
@@ -184,7 +184,7 @@ export default function MarketEntryPage() {
 							<Button
 								size='lg'
 								variant='outline'
-								className='text-primary border-white hover:bg-white hover:text-blue-600'
+								className='text-primary border-white hover:bg-white hover:text-emerald-600'
 								asChild
 							>
 								<Link href='/services'>View All Services</Link>
@@ -225,7 +225,7 @@ export default function MarketEntryPage() {
 							>
 								<Card className='text-center h-full'>
 									<CardContent className='p-6'>
-										<div className='text-3xl font-bold text-blue-600 mb-2'>
+										<div className='text-3xl font-bold text-emerald-600 mb-2'>
 											{outcome.metric}
 										</div>
 										<h3 className='text-lg font-semibold text-gray-300 mb-2'>
@@ -274,8 +274,8 @@ export default function MarketEntryPage() {
 								<Card className='h-full hover:shadow-lg transition-shadow duration-300'>
 									<CardContent className='p-8'>
 										<div className='flex items-start gap-4 mb-6'>
-											<div className='w-12 h-12 rounded-lg bg-blue-100 flex items-center justify-center flex-shrink-0'>
-												<service.icon className='h-6 w-6 text-blue-600' />
+											<div className='w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center flex-shrink-0'>
+												<service.icon className='h-6 w-6 text-emerald-600' />
 											</div>
 											<div className='flex-1'>
 												<h3 className='text-xl font-semibold text-gray-300 mb-2'>
@@ -285,8 +285,8 @@ export default function MarketEntryPage() {
 													{service.description}
 												</p>
 												<div className='flex items-center gap-2 mb-4'>
-													<Clock className='h-4 w-4 text-blue-600' />
-													<span className='text-sm font-medium text-blue-600'>
+													<Clock className='h-4 w-4 text-emerald-600' />
+													<span className='text-sm font-medium text-emerald-600'>
 														{service.timeline}
 													</span>
 												</div>
@@ -345,7 +345,7 @@ export default function MarketEntryPage() {
 									<CardContent className='p-8'>
 										<div className='flex items-center gap-8'>
 											<div className='flex-shrink-0'>
-												<div className='w-16 h-16 rounded-lg bg-gradient-to-r from-blue-500 to-blue-600 flex items-center justify-center text-white font-bold text-xl'>
+												<div className='w-16 h-16 rounded-lg bg-gradient-to-r from-emerald-500 to-emerald-600 flex items-center justify-center text-white font-bold text-xl'>
 													{step.step}
 												</div>
 											</div>
@@ -356,7 +356,7 @@ export default function MarketEntryPage() {
 												<p className='text-gray-600'>{step.description}</p>
 											</div>
 											<div className='flex-shrink-0'>
-												<step.icon className='h-8 w-8 text-blue-600' />
+												<step.icon className='h-8 w-8 text-emerald-600' />
 											</div>
 										</div>
 									</CardContent>
@@ -454,20 +454,20 @@ export default function MarketEntryPage() {
 							</p>
 
 							<div className='space-y-6'>
-								<div className='border-l-4 border-blue-500 pl-6'>
+								<div className='border-l-4 border-emerald-500 pl-6'>
 									<h3 className='font-semibold text-gray-300 mb-2'>Week 1</h3>
 									<p className='text-gray-600'>
 										Market assessment, entity structure design, and initial
 										registrations
 									</p>
 								</div>
-								<div className='border-l-4 border-blue-500 pl-6'>
+								<div className='border-l-4 border-emerald-500 pl-6'>
 									<h3 className='font-semibold text-gray-300 mb-2'>Week 2</h3>
 									<p className='text-gray-600'>
 										Commercial registration completion and banking setup
 									</p>
 								</div>
-								<div className='border-l-4 border-blue-500 pl-6'>
+								<div className='border-l-4 border-emerald-500 pl-6'>
 									<h3 className='font-semibold text-gray-300 mb-2'>Week 3-4</h3>
 									<p className='text-gray-600'>
 										Grant applications, investor introductions, and operational
@@ -483,7 +483,7 @@ export default function MarketEntryPage() {
 							transition={{ duration: 0.6, delay: 0.2 }}
 							viewport={{ once: true }}
 						>
-							<Card className='bg-gradient-to-br from-blue-50 to-blue-100 border-blue-200'>
+							<Card className='bg-gradient-to-br from-emerald-50 to-emerald-100 border-emerald-200'>
 								<CardContent className='p-8'>
 									<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 										What&apos;s Included
@@ -540,7 +540,7 @@ export default function MarketEntryPage() {
 			</section>
 
 			{/* Next Phase & CTA */}
-			<section className='py-24 sm:py-32 bg-gradient-to-r from-blue-500 to-blue-700 text-white'>
+			<section className='py-24 sm:py-32 bg-gradient-to-r from-emerald-500 to-emerald-700 text-white'>
 				<Container>
 					<div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
 						<motion.div
@@ -561,7 +561,7 @@ export default function MarketEntryPage() {
 								<Button
 									size='lg'
 									variant='outline'
-									className='text-blue-600 border-white hover:bg-white hover:text-blue-600'
+									className='text-emerald-600 border-white hover:bg-white hover:text-emerald-600'
 									asChild
 								>
 									<Link href='/services/localization'>Next: Phase 2</Link>
@@ -584,7 +584,7 @@ export default function MarketEntryPage() {
 							</p>
 							<Button
 								variant='outline'
-								className='text-blue-600 border-white hover:bg-white hover:text-blue-600'
+								className='text-emerald-600 border-white hover:bg-white hover:text-emerald-600'
 								asChild
 							>
 								<Link href='/services/localization'>

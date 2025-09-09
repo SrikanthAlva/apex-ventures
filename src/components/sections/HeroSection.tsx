@@ -22,7 +22,7 @@ export function HeroSection() {
 			{/* Subtle logo watermark */}
 			<div className='absolute right-4 bottom-4 lg:right-16 lg:bottom-16 opacity-5'>
 				<Image
-					src='/logo.jpg'
+					src='/logo.jpeg'
 					alt='Apex Ventures'
 					width={300}
 					height={300}

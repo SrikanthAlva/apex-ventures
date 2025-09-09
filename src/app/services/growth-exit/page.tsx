@@ -202,7 +202,7 @@ export default function GrowthExitPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-br from-purple-500 via-purple-600 to-purple-700 text-white'>
+			<section className='py-24 sm:py-32 bg-gradient-to-br from-emerald-500 via-emerald-600 to-emerald-700 text-white'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -218,7 +218,7 @@ export default function GrowthExitPage() {
 						</div>
 						<h1 className='text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl mb-6'>
 							Strategic Growth &<br />
-							<span className='text-purple-200'>Exit Advisory</span>
+							<span className='text-emerald-200'>Exit Advisory</span>
 						</h1>
 						<p className='text-xl leading-8 mb-8 opacity-90'>
 							Secure large-scale growth capital and maximize shareholder value through
@@ -232,7 +232,7 @@ export default function GrowthExitPage() {
 							<Button
 								size='lg'
 								variant='outline'
-								className='text-purple-600 border-white hover:bg-white hover:text-purple-600'
+								className='text-emerald-600 border-white hover:bg-white hover:text-emerald-600'
 								asChild
 							>
 								<Link href='/services/scaling'>Previous: Phase 3</Link>
@@ -273,7 +273,7 @@ export default function GrowthExitPage() {
 							>
 								<Card className='text-center h-full'>
 									<CardContent className='p-6'>
-										<div className='text-3xl font-bold text-purple-600 mb-2'>
+										<div className='text-3xl font-bold text-emerald-600 mb-2'>
 											{outcome.metric}
 										</div>
 										<h3 className='text-lg font-semibold text-gray-300 mb-2'>
@@ -321,8 +321,8 @@ export default function GrowthExitPage() {
 								<Card className='h-full hover:shadow-lg transition-shadow duration-300'>
 									<CardContent className='p-8'>
 										<div className='flex items-start gap-4 mb-6'>
-											<div className='w-12 h-12 rounded-lg bg-purple-100 flex items-center justify-center flex-shrink-0'>
-												<service.icon className='h-6 w-6 text-purple-600' />
+											<div className='w-12 h-12 rounded-lg bg-emerald-100 flex items-center justify-center flex-shrink-0'>
+												<service.icon className='h-6 w-6 text-emerald-600' />
 											</div>
 											<div className='flex-1'>
 												<h3 className='text-xl font-semibold text-gray-300 mb-2'>
@@ -332,8 +332,8 @@ export default function GrowthExitPage() {
 													{service.description}
 												</p>
 												<div className='flex items-center gap-2 mb-4'>
-													<Clock className='h-4 w-4 text-purple-600' />
-													<span className='text-sm font-medium text-purple-600'>
+													<Clock className='h-4 w-4 text-emerald-600' />
+													<span className='text-sm font-medium text-emerald-600'>
 														{service.timeline}
 													</span>
 												</div>
@@ -392,7 +392,7 @@ export default function GrowthExitPage() {
 								<Card className='h-full'>
 									<CardContent className='p-6'>
 										<div className='flex items-start gap-3 mb-4'>
-											<Award className='h-6 w-6 text-purple-600 mt-1 flex-shrink-0' />
+											<Award className='h-6 w-6 text-emerald-600 mt-1 flex-shrink-0' />
 											<h3 className='text-lg font-semibold text-gray-300'>
 												{investor.category}
 											</h3>
@@ -477,8 +477,8 @@ export default function GrowthExitPage() {
 												{strategy.description}
 											</p>
 											<div className='flex items-center gap-2 mb-4'>
-												<Clock className='h-4 w-4 text-purple-600' />
-												<span className='text-sm font-medium text-purple-600'>
+												<Clock className='h-4 w-4 text-emerald-600' />
+												<span className='text-sm font-medium text-emerald-600'>
 													{strategy.timeline}
 												</span>
 											</div>
@@ -533,13 +533,13 @@ export default function GrowthExitPage() {
 								{valuationFactors.map((factor) => (
 									<div
 										key={factor.factor}
-										className='border-l-4 border-purple-500 pl-6'
+										className='border-l-4 border-emerald-500 pl-6'
 									>
 										<div className='flex items-center justify-between mb-2'>
 											<h3 className='font-semibold text-gray-300'>
 												{factor.factor}
 											</h3>
-											<span className='text-purple-600 font-medium'>
+											<span className='text-emerald-600 font-medium'>
 												{factor.weight}
 											</span>
 										</div>
@@ -557,7 +557,7 @@ export default function GrowthExitPage() {
 							transition={{ duration: 0.6, delay: 0.2 }}
 							viewport={{ once: true }}
 						>
-							<Card className='bg-gradient-to-br from-purple-50 to-purple-100 border-purple-200'>
+							<Card className='bg-gradient-to-br from-emerald-50 to-emerald-100 border-emerald-200'>
 								<CardContent className='p-8'>
 									<h3 className='text-2xl font-bold text-gray-300 mb-6'>
 										Phase 4 Investment & Timeline
@@ -627,7 +627,7 @@ export default function GrowthExitPage() {
 			</section>
 
 			{/* Success Stories & CTA */}
-			<section className='py-24 sm:py-32 bg-gradient-to-r from-purple-500 to-purple-700 text-white'>
+			<section className='py-24 sm:py-32 bg-gradient-to-r from-emerald-500 to-emerald-700 text-white'>
 				<Container>
 					<div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
 						<motion.div
@@ -651,7 +651,7 @@ export default function GrowthExitPage() {
 								<Button
 									size='lg'
 									variant='outline'
-									className='text-primary border-white hover:bg-white hover:text-purple-600'
+									className='text-primary border-white hover:bg-white hover:text-emerald-600'
 									asChild
 								>
 									<Link href='/services'>View All Services</Link>
@@ -688,7 +688,7 @@ export default function GrowthExitPage() {
 							</div>
 							<Button
 								variant='outline'
-								className='text-purple-600 border-white hover:bg-white hover:text-purple-600 mt-6 w-full'
+								className='text-emerald-600 border-white hover:bg-white hover:text-emerald-600 mt-6 w-full'
 								asChild
 							>
 								<Link href='/about'>
