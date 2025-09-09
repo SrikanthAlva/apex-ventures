@@ -90,7 +90,7 @@ function AnimatedCounter({ target, duration = 2000 }: { target: string; duration
 
 export function ValuePropositionSection() {
 	return (
-		<section className='py-24 sm:py-32 bg-gray-50'>
+		<section className='py-24 sm:py-32 bg-background'>
 			<Container>
 				<motion.div
 					initial={{ opacity: 0, y: 20 }}
@@ -99,10 +99,10 @@ export function ValuePropositionSection() {
 					viewport={{ once: true }}
 					className='mx-auto max-w-2xl text-center'
 				>
-					<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+					<h2 className='text-3xl font-bold tracking-tight text-foreground sm:text-4xl'>
 						Why Choose Apex Ventures?
 					</h2>
-					<p className='mt-6 text-lg leading-8 text-gray-600'>
+					<p className='mt-6 text-lg leading-8 text-muted-foreground'>
 						We provide the expertise, connections, and execution capabilities you need
 						to succeed in the GCC market.
 					</p>
@@ -119,18 +119,20 @@ export function ValuePropositionSection() {
 						>
 							<Card className='h-full hover:shadow-lg transition-shadow duration-300'>
 								<CardHeader className='text-center'>
-									<div className='mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-primary/10 mb-4'>
-										<prop.icon className='h-8 w-8 text-primary' />
+									<div className='mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-accent/20 mb-4'>
+										<prop.icon className='h-8 w-8 text-accent' />
 									</div>
-									<CardTitle className='text-xl'>{prop.title}</CardTitle>
+									<CardTitle className='text-xl text-card-foreground'>
+										{prop.title}
+									</CardTitle>
 								</CardHeader>
 								<CardContent className='text-center'>
-									<p className='text-gray-600 mb-6'>{prop.description}</p>
+									<p className='text-muted-foreground mb-6'>{prop.description}</p>
 									<div className='mt-auto'>
-										<div className='text-3xl font-bold text-primary'>
+										<div className='text-3xl font-bold text-accent'>
 											<AnimatedCounter target={prop.metric} />
 										</div>
-										<div className='text-sm text-gray-500 mt-1'>
+										<div className='text-sm text-muted-foreground mt-1'>
 											{prop.metricLabel}
 										</div>
 									</div>

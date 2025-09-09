@@ -19,8 +19,8 @@ const sectors = [
 			'Industrial IoT',
 			'Energy Storage',
 		],
-		color: 'from-orange-500 to-red-500',
-		bgColor: 'bg-orange-50',
+		color: 'from-accent to-apex-green-600',
+		bgColor: 'bg-card',
 	},
 	{
 		icon: Heart,
@@ -28,8 +28,8 @@ const sectors = [
 		description:
 			'Digital health platforms, medical devices, and biotechnology innovations improving healthcare outcomes across the GCC.',
 		examples: ['Digital Health Platforms', 'Medical Devices', 'Biotechnology', 'Telemedicine'],
-		color: 'from-pink-500 to-rose-500',
-		bgColor: 'bg-pink-50',
+		color: 'from-accent to-apex-green-700',
+		bgColor: 'bg-card',
 	},
 	{
 		icon: Leaf,
@@ -42,8 +42,8 @@ const sectors = [
 			'Sustainable Agriculture',
 			'Carbon Capture',
 		],
-		color: 'from-green-500 to-emerald-500',
-		bgColor: 'bg-green-50',
+		color: 'from-accent to-apex-green-800',
+		bgColor: 'bg-card',
 	},
 	{
 		icon: Brain,
@@ -51,14 +51,14 @@ const sectors = [
 		description:
 			'AI, FinTech, and smart city technologies that are reshaping how we live, work, and interact in the digital age.',
 		examples: ['Artificial Intelligence', 'FinTech Solutions', 'Smart Cities', 'Blockchain'],
-		color: 'from-purple-500 to-indigo-500',
-		bgColor: 'bg-purple-50',
+		color: 'from-accent to-apex-green-900',
+		bgColor: 'bg-card',
 	},
 ]
 
 export function SectorsSection() {
 	return (
-		<section className='py-24 sm:py-32 bg-gray-50'>
+		<section className='py-24 sm:py-32 bg-muted'>
 			<Container>
 				<motion.div
 					initial={{ opacity: 0, y: 20 }}
@@ -67,10 +67,10 @@ export function SectorsSection() {
 					viewport={{ once: true }}
 					className='mx-auto max-w-2xl text-center'
 				>
-					<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+					<h2 className='text-3xl font-bold tracking-tight text-foreground sm:text-4xl'>
 						Focus Sectors
 					</h2>
-					<p className='mt-6 text-lg leading-8 text-gray-600'>
+					<p className='mt-6 text-lg leading-8 text-muted-foreground'>
 						We specialize in high-growth sectors critical to the GCC&apos;s economic
 						transformation and Vision 2030 objectives.
 					</p>
@@ -86,7 +86,7 @@ export function SectorsSection() {
 							viewport={{ once: true }}
 						>
 							<Card
-								className={`h-full ${sector.bgColor} border-none hover:shadow-lg transition-all duration-300 group`}
+								className={`h-full ${sector.bgColor} border-border hover:shadow-lg transition-all duration-300 group`}
 							>
 								<CardHeader>
 									<div
@@ -94,14 +94,16 @@ export function SectorsSection() {
 									>
 										<sector.icon className='h-6 w-6 text-white' />
 									</div>
-									<CardTitle className='text-xl text-gray-900'>
+									<CardTitle className='text-xl text-card-foreground'>
 										{sector.title}
 									</CardTitle>
 								</CardHeader>
 								<CardContent>
-									<p className='text-gray-600 mb-6'>{sector.description}</p>
+									<p className='text-muted-foreground mb-6'>
+										{sector.description}
+									</p>
 									<div className='space-y-2 mb-6'>
-										<h4 className='text-sm font-semibold text-gray-900 mb-3'>
+										<h4 className='text-sm font-semibold text-card-foreground mb-3'>
 											Key Areas:
 										</h4>
 										<div className='grid grid-cols-2 gap-2'>
@@ -110,8 +112,8 @@ export function SectorsSection() {
 													key={exampleIndex}
 													className='flex items-center gap-2'
 												>
-													<div className='w-1.5 h-1.5 rounded-full bg-gray-400' />
-													<span className='text-sm text-gray-600'>
+													<div className='w-1.5 h-1.5 rounded-full bg-accent' />
+													<span className='text-sm text-muted-foreground'>
 														{example}
 													</span>
 												</div>
@@ -120,7 +122,7 @@ export function SectorsSection() {
 									</div>
 									<Button
 										variant='ghost'
-										className='group-hover:bg-white group-hover:shadow-sm transition-all'
+										className='group-hover:bg-muted group-hover:shadow-sm transition-all'
 									>
 										Learn More
 										<ArrowRight className='ml-2 h-4 w-4' />

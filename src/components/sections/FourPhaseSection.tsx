@@ -21,8 +21,8 @@ const phases = [
 			'Targeted VC introductions',
 			'Legal foundation setup',
 		],
-		color: 'from-blue-500 to-blue-600',
-		bgColor: 'bg-blue-50',
+		color: 'from-accent to-apex-green-600',
+		bgColor: 'bg-card',
 	},
 	{
 		number: '02',
@@ -36,8 +36,8 @@ const phases = [
 			'Pilot projects with Aramco, SABIC',
 			'Technology validation framework',
 		],
-		color: 'from-amber-500 to-amber-600',
-		bgColor: 'bg-amber-50',
+		color: 'from-accent to-apex-green-700',
+		bgColor: 'bg-card',
 	},
 	{
 		number: '03',
@@ -51,8 +51,8 @@ const phases = [
 			'Strategic communications',
 			'Government relations management',
 		],
-		color: 'from-emerald-500 to-emerald-600',
-		bgColor: 'bg-emerald-50',
+		color: 'from-accent to-apex-green-800',
+		bgColor: 'bg-card',
 	},
 	{
 		number: '04',
@@ -66,8 +66,8 @@ const phases = [
 			'M&A advisory services',
 			'Strategic exit planning',
 		],
-		color: 'from-purple-500 to-purple-600',
-		bgColor: 'bg-purple-50',
+		color: 'from-accent to-apex-green-900',
+		bgColor: 'bg-card',
 	},
 ]
 
@@ -84,10 +84,10 @@ export function FourPhaseSection() {
 					viewport={{ once: true }}
 					className='mx-auto max-w-2xl text-center'
 				>
-					<h2 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl'>
+					<h2 className='text-3xl font-bold tracking-tight text-foreground sm:text-4xl'>
 						Our Full-Lifecycle Partnership Model
 					</h2>
-					<p className='mt-6 text-lg leading-8 text-gray-600'>
+					<p className='mt-6 text-lg leading-8 text-muted-foreground'>
 						From market entry to strategic exit, we provide comprehensive support at
 						every critical stage of your GCC expansion journey.
 					</p>
@@ -97,9 +97,9 @@ export function FourPhaseSection() {
 				<div className='hidden lg:block mt-16'>
 					<div className='relative'>
 						{/* Timeline line */}
-						<div className='absolute top-1/2 left-0 right-0 h-0.5 bg-gray-200 transform -translate-y-1/2' />
+						<div className='absolute top-1/2 left-0 right-0 h-0.5 bg-border transform -translate-y-1/2' />
 						<motion.div
-							className='absolute top-1/2 left-0 h-0.5 bg-gradient-to-r from-blue-500 via-amber-500 via-emerald-500 to-purple-500 transform -translate-y-1/2 transition-all duration-1000'
+							className='absolute top-1/2 left-0 h-0.5 bg-gradient-to-r from-accent via-accent via-accent to-accent transform -translate-y-1/2 transition-all duration-1000'
 							initial={{ width: '0%' }}
 							whileInView={{ width: '100%' }}
 							transition={{ duration: 2, delay: 0.5 }}
@@ -127,15 +127,15 @@ export function FourPhaseSection() {
 									</div>
 
 									<Card
-										className={`mt-8 ${phase.bgColor} border-none shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer`}
+										className={`mt-8 ${phase.bgColor} border-border shadow-lg hover:shadow-xl transition-all duration-300 cursor-pointer`}
 										onClick={() => setActivePhase(index)}
 									>
 										<CardContent className='p-6'>
-											<phase.icon className='h-8 w-8 text-gray-700 mb-4' />
-											<h3 className='text-lg font-semibold text-gray-900 mb-2'>
+											<phase.icon className='h-8 w-8 text-card-foreground mb-4' />
+											<h3 className='text-lg font-semibold text-card-foreground mb-2'>
 												{phase.title}
 											</h3>
-											<p className='text-sm text-gray-600'>
+											<p className='text-sm text-muted-foreground'>
 												{phase.description}
 											</p>
 										</CardContent>

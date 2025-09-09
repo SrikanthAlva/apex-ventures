@@ -32,7 +32,7 @@ const navigation = {
 
 export function Footer() {
 	return (
-		<footer className='bg-gray-900' aria-labelledby='footer-heading'>
+		<footer className='bg-secondary' aria-labelledby='footer-heading'>
 			<h2 id='footer-heading' className='sr-only'>
 				Footer
 			</h2>
@@ -47,7 +47,7 @@ export function Footer() {
 								height={45}
 								className='h-11 w-auto invert'
 							/>
-							<p className='mt-4 text-sm leading-6 text-gray-300'>
+							<p className='mt-4 text-sm leading-6 text-secondary-foreground'>
 								Strategic execution partner for technology companies entering the
 								GCC market. De-risking and accelerating your expansion journey.
 							</p>
@@ -59,7 +59,7 @@ export function Footer() {
 									href={item.href}
 									target='_blank'
 									rel='noopener noreferrer'
-									className='text-gray-400 hover:text-gray-300'
+									className='text-muted-foreground hover:text-secondary-foreground'
 								>
 									<span className='sr-only'>{item.name}</span>
 									<item.icon className='h-6 w-6' aria-hidden='true' />
@@ -70,13 +70,15 @@ export function Footer() {
 					<div className='mt-16 grid grid-cols-3 gap-8 xl:col-span-2 xl:mt-0'>
 						{/* <div className='md:grid md:grid-cols-2 md:gap-8'> */}
 						<div>
-							<h3 className='text-sm font-semibold leading-6 text-white'>Services</h3>
+							<h3 className='text-sm font-semibold leading-6 text-secondary-foreground'>
+								Services
+							</h3>
 							<ul role='list' className='mt-6 space-y-4'>
 								{navigation.services.map((item) => (
 									<li key={item.name}>
 										<Link
 											href={item.href}
-											className='text-sm leading-6 text-gray-300 hover:text-white'
+											className='text-sm leading-6 text-muted-foreground hover:text-secondary-foreground'
 										>
 											{item.name}
 										</Link>
@@ -104,13 +106,15 @@ export function Footer() {
 						{/* </div> */}
 						{/* <div className='md:grid md:grid-cols-2 md:gap-8'> */}
 						<div>
-							<h3 className='text-sm font-semibold leading-6 text-white'>Company</h3>
+							<h3 className='text-sm font-semibold leading-6 text-secondary-foreground'>
+								Company
+							</h3>
 							<ul role='list' className='mt-6 space-y-4'>
 								{navigation.company.map((item) => (
 									<li key={item.name}>
 										<Link
 											href={item.href}
-											className='text-sm leading-6 text-gray-300 hover:text-white'
+											className='text-sm leading-6 text-muted-foreground hover:text-secondary-foreground'
 										>
 											{item.name}
 										</Link>
@@ -119,19 +123,19 @@ export function Footer() {
 							</ul>
 						</div>
 						<div className='mt-10 md:mt-0'>
-							<h3 className='text-sm font-semibold leading-6 text-white'>
+							<h3 className='text-sm font-semibold leading-6 text-secondary-foreground'>
 								Contact Info
 							</h3>
 							<ul role='list' className='mt-6 space-y-4'>
-								<li className='flex items-center text-sm text-gray-300'>
+								<li className='flex items-center text-sm text-muted-foreground'>
 									<Mail className='h-4 w-4 mr-2' />
 									ksa@apvbh.com
 								</li>
-								<li className='flex items-center text-sm text-gray-300'>
+								<li className='flex items-center text-sm text-muted-foreground'>
 									<Phone className='h-4 w-4 mr-2' />
 									+973 32298219, +973 39616434
 								</li>
-								<li className='flex items-center text-sm text-gray-300'>
+								<li className='flex items-center text-sm text-muted-foreground'>
 									<MapPin className='h-10 w-10 mr-2' />
 									Office 202, Buulding 129, Road 3803, Block 338, Kingdom of
 									Bahrain
@@ -141,21 +145,21 @@ export function Footer() {
 						{/* </div> */}
 					</div>
 				</div>
-				<div className='mt-16 border-t border-white/10 pt-8 sm:mt-20 lg:mt-24'>
+				<div className='mt-16 border-t border-border pt-8 sm:mt-20 lg:mt-24'>
 					<div className='flex flex-col sm:flex-row sm:items-center sm:justify-between'>
-						<p className='text-xs leading-5 text-gray-400'>
+						<p className='text-xs leading-5 text-muted-foreground'>
 							&copy; 2025 Apex Ventures. All rights reserved.
 						</p>
 						<div className='mt-4 sm:mt-0'>
 							<Link
 								href='/privacy'
-								className='text-xs leading-5 text-gray-400 hover:text-gray-300 mr-6'
+								className='text-xs leading-5 text-muted-foreground hover:text-secondary-foreground mr-6'
 							>
 								Privacy Policy
 							</Link>
 							<Link
 								href='/terms'
-								className='text-xs leading-5 text-gray-400 hover:text-gray-300'
+								className='text-xs leading-5 text-muted-foreground hover:text-secondary-foreground'
 							>
 								Terms of Service
 							</Link>
