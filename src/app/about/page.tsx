@@ -143,7 +143,7 @@ export default function AboutPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-br from-primary to-accent text-white'>
+			<section className='py-24 sm:py-32 bg-accent text-white'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -234,7 +234,7 @@ export default function AboutPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-600 sm:text-4xl mb-6'>
 							The GCC Opportunity
 						</h2>
 						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
@@ -259,7 +259,7 @@ export default function AboutPage() {
 										<div className='text-3xl font-bold text-gray-300 mb-2'>
 											{stat.metric}
 										</div>
-										<div className='text-lg font-semibold text-gray-700 mb-2'>
+										<div className='text-lg font-semibold text-gray-200 mb-2'>
 											{stat.label}
 										</div>
 										<p className='text-sm text-gray-500'>{stat.description}</p>
@@ -412,7 +412,7 @@ export default function AboutPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-600 sm:text-4xl mb-6'>
 							What Sets Us Apart
 						</h2>
 						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
@@ -482,7 +482,7 @@ export default function AboutPage() {
 										<div className='flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-6'>
 											<div className='relative w-24 h-24 sm:w-32 sm:h-32 flex-shrink-0'>
 												<div className='w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center border-4 border-white shadow-lg'>
-													<div className='w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center'>
+													<div className='w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-accent flex items-center justify-center'>
 														<span className='text-white font-bold text-lg sm:text-xl'>
 															{member.name
 																.split(' ')

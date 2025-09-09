@@ -146,7 +146,7 @@ export default function ServicesPage() {
 	return (
 		<div className='min-h-screen'>
 			{/* Hero Section */}
-			<section className='py-24 sm:py-32 bg-gradient-to-br from-primary to-accent text-white'>
+			<section className='py-24 sm:py-32 bg-accent text-white'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -226,7 +226,7 @@ export default function ServicesPage() {
 						viewport={{ once: true }}
 						className='text-center mb-16'
 					>
-						<h2 className='text-3xl font-bold tracking-tight text-gray-300 sm:text-4xl mb-6'>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-600 sm:text-4xl mb-6'>
 							Our Four-Phase Partnership Model
 						</h2>
 						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
@@ -259,7 +259,7 @@ export default function ServicesPage() {
 														{phase.number}
 													</div>
 													<div className='flex-1'>
-														<h3 className='text-2xl font-bold text-gray-300 mb-3'>
+														<h3 className='text-2xl font-bold text-gray-600 mb-3'>
 															{phase.title}
 														</h3>
 														<p className='text-gray-500 mb-6'>
@@ -269,7 +269,7 @@ export default function ServicesPage() {
 															<div>
 																<div className='flex items-center gap-2 mb-2'>
 																	<Clock className='h-4 w-4 text-primary' />
-																	<span className='font-semibold text-gray-300'>
+																	<span className='font-semibold text-gray-600'>
 																		Timeline
 																	</span>
 																</div>
@@ -280,7 +280,7 @@ export default function ServicesPage() {
 															<div>
 																<div className='flex items-center gap-2 mb-2'>
 																	<DollarSign className='h-4 w-4 text-primary' />
-																	<span className='font-semibold text-gray-300'>
+																	<span className='font-semibold text-gray-600'>
 																		Investment Range
 																	</span>
 																</div>
@@ -295,7 +295,7 @@ export default function ServicesPage() {
 
 											{/* Key Outcomes */}
 											<div>
-												<h4 className='font-semibold text-gray-300 mb-4'>
+												<h4 className='font-semibold text-gray-600 mb-4'>
 													Key Outcomes
 												</h4>
 												<div className='space-y-3'>
@@ -391,7 +391,7 @@ export default function ServicesPage() {
 							transition={{ duration: 0.6 }}
 							viewport={{ once: true }}
 						>
-							<h2 className='text-3xl font-bold text-gray-300 sm:text-4xl mb-6'>
+							<h2 className='text-3xl font-bold text-gray-600 sm:text-4xl mb-6'>
 								Tailored to Your Industry & Stage
 							</h2>
 							<p className='text-lg text-gray-500 mb-6'>
@@ -403,7 +403,7 @@ export default function ServicesPage() {
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
 									<div>
-										<strong className='text-gray-300'>
+										<strong className='text-gray-600'>
 											Industry Expertise:
 										</strong>
 										<span className='text-gray-500 ml-1'>
@@ -415,7 +415,7 @@ export default function ServicesPage() {
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
 									<div>
-										<strong className='text-gray-300'>
+										<strong className='text-gray-600'>
 											Stage Flexibility:
 										</strong>
 										<span className='text-gray-500 ml-1'>
@@ -427,7 +427,7 @@ export default function ServicesPage() {
 								<div className='flex items-start gap-3'>
 									<div className='w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0' />
 									<div>
-										<strong className='text-gray-300'>
+										<strong className='text-gray-600'>
 											Cultural Integration:
 										</strong>
 										<span className='text-gray-500 ml-1'>
@@ -449,7 +449,7 @@ export default function ServicesPage() {
 							viewport={{ once: true }}
 							className='bg-white rounded-2xl p-8 shadow-lg'
 						>
-							<h3 className='text-2xl font-bold text-gray-300 mb-6'>
+							<h3 className='text-2xl font-bold text-gray-600 mb-6'>
 								Partnership Inquiry Process
 							</h3>
 							<div className='space-y-6'>
@@ -458,7 +458,7 @@ export default function ServicesPage() {
 										1
 									</div>
 									<div>
-										<h4 className='font-semibold text-gray-300 mb-1'>
+										<h4 className='font-semibold text-gray-600 mb-1'>
 											Initial Consultation
 										</h4>
 										<p className='text-gray-500 text-sm'>
@@ -472,7 +472,7 @@ export default function ServicesPage() {
 										2
 									</div>
 									<div>
-										<h4 className='font-semibold text-gray-300 mb-1'>
+										<h4 className='font-semibold text-gray-600 mb-1'>
 											Strategic Assessment
 										</h4>
 										<p className='text-gray-500 text-sm'>
@@ -486,7 +486,7 @@ export default function ServicesPage() {
 										3
 									</div>
 									<div>
-										<h4 className='font-semibold text-gray-300 mb-1'>
+										<h4 className='font-semibold text-gray-600 mb-1'>
 											Customized Proposal
 										</h4>
 										<p className='text-gray-500 text-sm'>
@@ -500,7 +500,7 @@ export default function ServicesPage() {
 										4
 									</div>
 									<div>
-										<h4 className='font-semibold text-gray-300 mb-1'>
+										<h4 className='font-semibold text-gray-600 mb-1'>
 											Partnership Launch
 										</h4>
 										<p className='text-gray-500 text-sm'>
