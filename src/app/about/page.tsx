@@ -93,30 +93,8 @@ const values = [
 
 const teamMembers = [
 	{
-		name: 'Taimour Raouf',
-		title: 'Co-Founder & Strategic Advisor',
-		bio: 'Extensive experience in marketing and corporate communications within the banking and financial services sector. Former Executive Senior Manager and Head of Marketing and Corporate Communications at Ithmaar Bank BSC, and Head of Corporate Communications at Aluminium Bahrain.',
-		expertise: [
-			'Corporate Communications',
-			'Marketing Strategy',
-			'Banking & Financial Services',
-			'GCC Market Development',
-			'Government Relations',
-		],
-		education: 'Bachelor of Science, University of Bahrain',
-		experience: '20+ years in corporate communications and marketing',
-		previousRoles: [
-			'Head of Marketing & Corporate Communications - Ithmaar Bank (2008-2022)',
-			'Head of Corporate Communications - Aluminium Bahrain (2003-2008)',
-			'News Editor - ANIS',
-			'Deputy Editor Features - Bahrain Tribune',
-		],
-		linkedIn: 'https://www.linkedin.com/in/taimourraouf/',
-		image: '/team/taimour-raouf.jpg',
-	},
-	{
 		name: 'Ben Queisser',
-		title: 'Co-Founder & Innovation Lead',
+		title: 'Co-Founder & CEO',
 		bio: 'Seasoned technology and innovation executive with expertise in the energy sector and international business development. Currently Head of Technology & Innovation for Hydrogen & Green Fuels at NEOM, with extensive experience in scaling operations across global markets.',
 		expertise: [
 			'Technology Innovation',
@@ -136,6 +114,28 @@ const teamMembers = [
 		],
 		linkedIn: 'https://www.linkedin.com/in/ben-queisser/',
 		image: '/team/ben-queisser.jpg',
+	},
+	{
+		name: 'Taimour Raouf',
+		title: 'Co-Founder',
+		bio: 'Extensive experience in marketing and corporate communications within the banking and financial services sector. Former Executive Senior Manager and Head of Marketing and Corporate Communications at Ithmaar Bank BSC, and Head of Corporate Communications at Aluminium Bahrain.',
+		expertise: [
+			'Corporate Communications',
+			'Marketing Strategy',
+			'Banking & Financial Services',
+			'GCC Market Development',
+			'Government Relations',
+		],
+		education: 'Bachelor of Science, University of Bahrain',
+		experience: '20+ years in corporate communications and marketing',
+		previousRoles: [
+			'Head of Marketing & Corporate Communications - Ithmaar Bank (2008-2022)',
+			'Head of Corporate Communications - Aluminium Bahrain (2003-2008)',
+			'News Editor - ANIS',
+			'Deputy Editor Features - Bahrain Tribune',
+		],
+		linkedIn: 'https://www.linkedin.com/in/taimourraouf/',
+		image: '/team/taimour-raouf.jpg',
 	},
 ]
 

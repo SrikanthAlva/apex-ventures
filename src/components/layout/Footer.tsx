@@ -24,7 +24,7 @@ const navigation = {
 	social: [
 		{
 			name: 'LinkedIn',
-			href: 'https://www.linkedin.com/company/apvbh',
+			href: 'https://www.linkedin.com/company/apvbh/about',
 			icon: Linkedin,
 		},
 	],
@@ -57,6 +57,8 @@ export function Footer() {
 								<a
 									key={item.name}
 									href={item.href}
+									target='_blank'
+									rel='noopener noreferrer'
 									className='text-gray-400 hover:text-gray-300'
 								>
 									<span className='sr-only'>{item.name}</span>
@@ -123,15 +125,16 @@ export function Footer() {
 							<ul role='list' className='mt-6 space-y-4'>
 								<li className='flex items-center text-sm text-gray-300'>
 									<Mail className='h-4 w-4 mr-2' />
-									partnerships@apexventures.com
+									ksa@apvbh.com
 								</li>
 								<li className='flex items-center text-sm text-gray-300'>
 									<Phone className='h-4 w-4 mr-2' />
-									+966 XX XXX XXXX
+									+973 32298219, +973 39616434
 								</li>
 								<li className='flex items-center text-sm text-gray-300'>
-									<MapPin className='h-4 w-4 mr-2' />
-									Riyadh, Saudi Arabia
+									<MapPin className='h-10 w-10 mr-2' />
+									Office 202, Buulding 129, Road 3803, Block 338, Kingdom of
+									Bahrain
 								</li>
 							</ul>
 						</div>
