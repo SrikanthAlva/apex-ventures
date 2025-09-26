@@ -13,7 +13,6 @@ const valueProps = [
 		title: 'De-risk Market Entry',
 		description:
 			'Navigate complex regulations and cultural nuances with local expertise and established partnerships.',
-		metric: '95%',
 		metricLabel: 'Success Rate',
 	},
 	{
@@ -21,7 +20,6 @@ const valueProps = [
 		title: 'Accelerate Growth',
 		description:
 			'Fast-track your expansion with our proven processes and deep ecosystem connections.',
-		metric: '6x',
 		metricLabel: 'Faster Setup',
 	},
 	{
@@ -29,7 +27,6 @@ const valueProps = [
 		title: 'Deep Integration',
 		description:
 			'Become a trusted local partner through strategic R&D collaborations and government relations.',
-		metric: '200+',
 		metricLabel: 'Key Partnerships',
 	},
 	{
@@ -37,7 +34,6 @@ const valueProps = [
 		title: 'Strategic Execution',
 		description:
 			'Full-lifecycle support from initial entry through to successful strategic exit.',
-		metric: '$500M+',
 		metricLabel: 'Value Created',
 	},
 ]
@@ -128,14 +124,6 @@ export function ValuePropositionSection() {
 								</CardHeader>
 								<CardContent className='text-center'>
 									<p className='text-muted-foreground mb-6'>{prop.description}</p>
-									<div className='mt-auto'>
-										<div className='text-3xl font-bold text-accent'>
-											<AnimatedCounter target={prop.metric} />
-										</div>
-										<div className='text-sm text-muted-foreground mt-1'>
-											{prop.metricLabel}
-										</div>
-									</div>
 								</CardContent>
 							</Card>
 						</motion.div>

@@ -24,7 +24,7 @@ const phases = [
 		icon: Building,
 		description:
 			'Fast-tracked commercial registration with 100% foreign ownership, RDIA partnerships for non-dilutive grants, and seed-stage capital raising.',
-		timeline: '2-4 weeks',
+		timeline: '4-8 weeks',
 		investment: '$25K - $100K',
 		keyOutcomes: [
 			'Commercial registration completed',
@@ -47,7 +47,7 @@ const phases = [
 		keyOutcomes: [
 			'R&D partnerships established',
 			'Technology validation completed',
-			'Pilot projects launched',
+			'Pilot project initiated',
 			'Local team recruited',
 		],
 		slug: 'localization',
@@ -268,20 +268,20 @@ export default function ServicesPage() {
 														<div className='grid grid-cols-1 md:grid-cols-2 gap-4 mb-6'>
 															<div>
 																<div className='flex items-center gap-2 mb-2'>
-																	<Clock className='h-4 w-4 text-primary' />
+																	<Clock className='h-4 w-4 text-accent' />
 																	<span className='font-semibold text-gray-600'>
 																		Timeline
 																	</span>
 																</div>
-																<p className='text-gray-500'>
+																<div className='text-gray-500'>
 																	{phase.timeline}
-																</p>
+																</div>
 															</div>
 															<div>
 																<div className='flex items-center gap-2 mb-2'>
-																	<DollarSign className='h-4 w-4 text-primary' />
+																	<DollarSign className='h-4 w-4 text-accent' />
 																	<span className='font-semibold text-gray-600'>
-																		Investment Range
+																		Indicative Band
 																	</span>
 																</div>
 																<p className='text-gray-500'>
@@ -334,7 +334,7 @@ export default function ServicesPage() {
 			</section>
 
 			{/* Success Metrics */}
-			<section className='py-24 sm:py-32'>
+			{/* <section className='py-24 sm:py-32'>
 				<Container>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -379,10 +379,10 @@ export default function ServicesPage() {
 						))}
 					</div>
 				</Container>
-			</section>
+			</section> */}
 
 			{/* Process Overview */}
-			<section className='py-24 sm:py-32 bg-gray-50'>
+			<section className='py-24 sm:py-32'>
 				<Container>
 					<div className='grid grid-cols-1 lg:grid-cols-2 gap-16 items-center'>
 						<motion.div
@@ -454,7 +454,7 @@ export default function ServicesPage() {
 							</h3>
 							<div className='space-y-6'>
 								<div className='flex items-start gap-4'>
-									<div className='w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold flex-shrink-0'>
+									<div className='w-8 h-8 rounded-full bg-primary text-accent flex items-center justify-center text-sm font-bold flex-shrink-0'>
 										1
 									</div>
 									<div>
@@ -468,7 +468,7 @@ export default function ServicesPage() {
 									</div>
 								</div>
 								<div className='flex items-start gap-4'>
-									<div className='w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold flex-shrink-0'>
+									<div className='w-8 h-8 rounded-full bg-primary text-accent flex items-center justify-center text-sm font-bold flex-shrink-0'>
 										2
 									</div>
 									<div>
@@ -482,7 +482,7 @@ export default function ServicesPage() {
 									</div>
 								</div>
 								<div className='flex items-start gap-4'>
-									<div className='w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold flex-shrink-0'>
+									<div className='w-8 h-8 rounded-full bg-primary text-accent flex items-center justify-center text-sm font-bold flex-shrink-0'>
 										3
 									</div>
 									<div>
@@ -496,7 +496,7 @@ export default function ServicesPage() {
 									</div>
 								</div>
 								<div className='flex items-start gap-4'>
-									<div className='w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold flex-shrink-0'>
+									<div className='w-8 h-8 rounded-full bg-primary text-accent flex items-center justify-center text-sm font-bold flex-shrink-0'>
 										4
 									</div>
 									<div>

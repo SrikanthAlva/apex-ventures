@@ -3,7 +3,7 @@
 import { Container } from '@/components/layout/Container'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import { Zap, Heart, Leaf, Brain, ArrowRight } from 'lucide-react'
+import { Zap, Heart, Leaf, Brain, ArrowRight, Cross } from 'lucide-react'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 
@@ -14,21 +14,26 @@ const sectors = [
 		description:
 			"Clean energy technologies, advanced materials, and industrial automation solutions driving the region's energy transition.",
 		examples: [
-			'Solar & Wind Technologies',
-			'Advanced Materials',
-			'Industrial IoT',
-			'Energy Storage',
+			'Clean energy production and scaleup',
+			'Process innovation, efficiency and automation',
+			'BESS and LDES',
+			'Net-zero/low-carbon industrial decarbonization',
 		],
 		color: 'from-accent to-apex-green-600',
 		bgColor: 'bg-card',
 	},
 	{
-		icon: Heart,
-		title: 'Health & Wellness',
+		icon: Brain,
+		title: 'Economies of the Future',
 		description:
-			'Digital health platforms, medical devices, and biotechnology innovations improving healthcare outcomes across the GCC.',
-		examples: ['Digital Health Platforms', 'Medical Devices', 'Biotechnology', 'Telemedicine'],
-		color: 'from-accent to-apex-green-700',
+			'AI, FinTech, and smart city technologies that are reshaping how we live, work, and interact in the digital age.',
+		examples: [
+			'AI & machine-learning R&D ',
+			'Space exploration & related technologies ',
+			'6G/next-gen communications innovation ',
+			'Quantum computing R&D',
+		],
+		color: 'from-accent to-apex-green-900',
 		bgColor: 'bg-card',
 	},
 	{
@@ -37,21 +42,26 @@ const sectors = [
 		description:
 			'Water technology, waste management, and sustainable agriculture solutions addressing critical environmental challenges.',
 		examples: [
-			'Water Technology',
-			'Waste Management',
-			'Sustainable Agriculture',
-			'Carbon Capture',
+			'Marine preservation & biodiversity',
+			'Energy-efficient cooling technologies',
+			'Renewable desalination & water reuse',
+			'Arid-farming specialization',
 		],
 		color: 'from-accent to-apex-green-800',
 		bgColor: 'bg-card',
 	},
 	{
-		icon: Brain,
-		title: 'Economies of the Future',
+		icon: Heart,
+		title: 'Health & Wellness',
 		description:
-			'AI, FinTech, and smart city technologies that are reshaping how we live, work, and interact in the digital age.',
-		examples: ['Artificial Intelligence', 'FinTech Solutions', 'Smart Cities', 'Blockchain'],
-		color: 'from-accent to-apex-green-900',
+			'Digital health platforms, medical devices, and biotechnology innovations improving healthcare outcomes across the GCC.',
+		examples: [
+			'Advanced and Personalized Therapeutics',
+			'Digital and Data-Driven Healthcare',
+			'Disease Prevention, Diagnosis, and Management',
+			'Cross-Cutting and Foundational Technologies',
+		],
+		color: 'from-accent to-apex-green-700',
 		bgColor: 'bg-card',
 	},
 ]

@@ -38,12 +38,6 @@ const stats = [
 		label: 'Strategic Partners',
 		description: 'Government entities, corporations, and investors',
 	},
-	{
-		icon: Award,
-		metric: '$500M+',
-		label: 'Value Created',
-		description: 'For our portfolio companies to date',
-	},
 ]
 
 const marketOpportunities = [
@@ -95,13 +89,13 @@ const teamMembers = [
 	{
 		name: 'Ben Queisser',
 		title: 'Co-Founder & CEO',
-		bio: 'Seasoned technology and innovation executive with expertise in the energy sector and international business development. Currently Head of Technology & Innovation for Hydrogen & Green Fuels at NEOM, with extensive experience in scaling operations across global markets.',
+		bio: 'Results-driven senior leader at the forefront of the global energy transition, with a career spanning Europe, North America, Africa, and the Middle East. Proven track record of building ventures and driving innovation in complex international markets by bridging the gap between disruptive technology and industrial-scale commercialization',
 		expertise: [
+			'International Market Entry',
+			'Venture Building',
+			'Strategic Partnerships',
 			'Technology Innovation',
 			'Energy & Sustainability',
-			'International Operations',
-			'Business Development',
-			'Strategic Partnerships',
 		],
 		education: 'Advanced Technology & Business Leadership',
 		experience: '15+ years in technology innovation and international business',
@@ -118,13 +112,14 @@ const teamMembers = [
 	{
 		name: 'Taimour Raouf',
 		title: 'Co-Founder',
-		bio: 'Extensive experience in marketing and corporate communications within the banking and financial services sector. Former Executive Senior Manager and Head of Marketing and Corporate Communications at Ithmaar Bank BSC, and Head of Corporate Communications at Aluminium Bahrain.',
+		bio: 'Strategic, result-focused communications and branding leader with a career spanning journalism, banking and industrial sectors. Proven track record shaping corporate reputation and driving integrated marketing communications for complex, high-visibility organizations, bridging strategy with execution and implementation.',
 		expertise: [
 			'Corporate Communications',
-			'Marketing Strategy',
-			'Banking & Financial Services',
-			'GCC Market Development',
-			'Government Relations',
+			'Crisis & Issues Management',
+			'PR & Media Relations',
+			'Branding & Positioning',
+			'Stakeholder & Investor Engagement',
+			'Campaign Leadership',
 		],
 		education: 'Bachelor of Science, University of Bahrain',
 		experience: '20+ years in corporate communications and marketing',
@@ -182,26 +177,6 @@ export default function AboutPage() {
 				<Container>
 					<div className='grid grid-cols-1 lg:grid-cols-2 gap-16'>
 						<motion.div
-							initial={{ opacity: 0, x: -20 }}
-							whileInView={{ opacity: 1, x: 0 }}
-							transition={{ duration: 0.2 }}
-							viewport={{ once: true }}
-						>
-							<h2 className='text-3xl font-bold text-gray-300 mb-6'>Our Mission</h2>
-							<p className='text-lg text-gray-500 mb-6'>
-								To be the definitive strategic execution partner for innovative
-								companies entering the GCC market, providing end-to-end support that
-								transforms market entry challenges into competitive advantages.
-							</p>
-							<p className='text-gray-500'>
-								We believe that successful market expansion requires more than just
-								capital and good intentions - it demands deep local expertise,
-								strategic partnerships, and hands-on execution support throughout
-								the entire growth journey.
-							</p>
-						</motion.div>
-
-						<motion.div
 							initial={{ opacity: 0, x: 20 }}
 							whileInView={{ opacity: 1, x: 0 }}
 							transition={{ duration: 0.6, delay: 0.2 }}
@@ -218,6 +193,26 @@ export default function AboutPage() {
 								where breakthrough technologies seamlessly integrate into the
 								GCC&apos;s economic transformation, driving Vision 2030 objectives
 								while generating exceptional returns for all stakeholders.
+							</p>
+						</motion.div>
+
+						<motion.div
+							initial={{ opacity: 0, x: -20 }}
+							whileInView={{ opacity: 1, x: 0 }}
+							transition={{ duration: 0.2 }}
+							viewport={{ once: true }}
+						>
+							<h2 className='text-3xl font-bold text-gray-300 mb-6'>Our Mission</h2>
+							<p className='text-lg text-gray-500 mb-6'>
+								To be the definitive strategic execution partner for innovative
+								companies entering the GCC market, providing end-to-end support that
+								transforms market entry challenges into competitive advantages.
+							</p>
+							<p className='text-gray-500'>
+								We believe that successful market expansion requires more than just
+								capital and good intentions - it demands deep local expertise,
+								strategic partnerships, and hands-on execution support throughout
+								the entire growth journey.
 							</p>
 						</motion.div>
 					</div>
@@ -244,7 +239,7 @@ export default function AboutPage() {
 						</p>
 					</motion.div>
 
-					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16'>
+					<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16'>
 						{stats.map((stat, index) => (
 							<motion.div
 								key={stat.label}

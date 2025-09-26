@@ -10,7 +10,6 @@ import { motion } from 'framer-motion'
 const stats = [
 	{ icon: Globe, label: 'GCC Countries', value: '6' },
 	{ icon: TrendingUp, label: 'Market Growth', value: '$2T+' },
-	{ icon: Users, label: 'Success Stories', value: '50+' },
 ]
 
 export function HeroSection() {

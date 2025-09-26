@@ -84,8 +84,8 @@ export function Header() {
 								<Image
 									src='/logo_with_name.png'
 									alt='Apex Ventures'
-									width={160}
-									height={35}
+									width={180}
+									height={45}
 									className='h-8 w-auto'
 								/>
 							</Link>
