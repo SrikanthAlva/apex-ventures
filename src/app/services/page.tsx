@@ -438,7 +438,7 @@ export default function ServicesPage() {
 								</div>
 							</div>
 							<Button size='lg' asChild>
-								<Link href='/contact'>Discuss Your Needs</Link>
+								<Link href='/about'>Discuss Your Needs</Link>
 							</Button>
 						</motion.div>
 
@@ -534,16 +534,16 @@ export default function ServicesPage() {
 						</p>
 						<div className='flex flex-col sm:flex-row gap-4 justify-center'>
 							<Button size='lg' variant='secondary' asChild>
-								<Link href='/contact'>Start Your Partnership</Link>
+								<Link href='/about'>Start Your Partnership</Link>
 							</Button>
-							<Button
+							{/* <Button
 								size='lg'
 								variant='outline'
 								className='text-primary border-white hover:bg-white hover:text-primary'
 								asChild
 							>
 								<Link href='/about'>Learn About Us</Link>
-							</Button>
+							</Button> */}
 						</div>
 					</motion.div>
 				</Container>

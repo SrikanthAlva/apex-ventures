@@ -16,6 +16,8 @@ import {
 	ExternalLink,
 	GraduationCap,
 	Calendar,
+	Mail,
+	Phone,
 } from 'lucide-react'
 import Link from 'next/link'
 
@@ -171,7 +173,6 @@ export default function AboutPage() {
 					</motion.div>
 				</Container>
 			</section>
-
 			{/* Mission & Vision */}
 			<section className='py-24 sm:py-32'>
 				<Container>
@@ -218,7 +219,6 @@ export default function AboutPage() {
 					</div>
 				</Container>
 			</section>
-
 			{/* Market Statistics */}
 			<section className='py-24 sm:py-32 bg-gray-50'>
 				<Container>
@@ -288,7 +288,6 @@ export default function AboutPage() {
 					</div>
 				</Container>
 			</section>
-
 			{/* Saudi Arabia Strategic Focus */}
 			<section className='py-24 sm:py-32'>
 				<Container>
@@ -396,7 +395,6 @@ export default function AboutPage() {
 					</div>
 				</Container>
 			</section>
-
 			{/* Our Values */}
 			<section className='py-24 sm:py-32 bg-gray-50'>
 				<Container>
@@ -440,7 +438,6 @@ export default function AboutPage() {
 					</div>
 				</Container>
 			</section>
-
 			{/* Team Section */}
 			<section className='py-24 sm:py-32'>
 				<Container>
@@ -600,6 +597,111 @@ export default function AboutPage() {
 							</CardContent>
 						</Card>
 					</motion.div> */}
+				</Container>
+			</section>
+
+			{/* Contact Details Section */}
+			<section className='py-24 sm:py-32 bg-gray-50'>
+				<Container>
+					<motion.div
+						initial={{ opacity: 0, y: 20 }}
+						whileInView={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6 }}
+						viewport={{ once: true }}
+						className='text-center mb-16'
+					>
+						<h2 className='text-3xl font-bold tracking-tight text-gray-600 sm:text-4xl mb-6'>
+							Get in Touch
+						</h2>
+						<p className='text-lg text-gray-500 max-w-3xl mx-auto'>
+							Ready to explore opportunities in the GCC market? Contact our team to
+							discuss how we can support your expansion journey.
+						</p>
+					</motion.div>
+
+					<div className='grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto'>
+						{/* Email */}
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{ duration: 0.6, delay: 0.1 }}
+							viewport={{ once: true }}
+						>
+							<Card className='h-full text-center hover:shadow-lg transition-shadow duration-300'>
+								<CardContent className='p-8'>
+									<Mail className='h-12 w-12 text-primary mx-auto mb-6' />
+									<h3 className='text-xl font-semibold text-gray-300 mb-4'>
+										Email
+									</h3>
+									<a
+										href='mailto:ksa@apvbh.com'
+										className='text-primary hover:text-accent transition-colors duration-200 font-medium'
+									>
+										ksa@apvbh.com
+									</a>
+								</CardContent>
+							</Card>
+						</motion.div>
+
+						{/* Phone */}
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{ duration: 0.6, delay: 0.2 }}
+							viewport={{ once: true }}
+						>
+							<Card className='h-full text-center hover:shadow-lg transition-shadow duration-300'>
+								<CardContent className='p-8'>
+									<Phone className='h-12 w-12 text-primary mx-auto mb-6' />
+									<h3 className='text-xl font-semibold text-gray-300 mb-4'>
+										Phone
+									</h3>
+									<div className='space-y-2'>
+										<div>
+											<a
+												href='tel:+97332298219'
+												className='text-primary hover:text-accent transition-colors duration-200 font-medium block'
+											>
+												+973 32298219
+											</a>
+										</div>
+										<div>
+											<a
+												href='tel:+97339616434'
+												className='text-primary hover:text-accent transition-colors duration-200 font-medium block'
+											>
+												+973 39616434
+											</a>
+										</div>
+									</div>
+								</CardContent>
+							</Card>
+						</motion.div>
+
+						{/* Address */}
+						<motion.div
+							initial={{ opacity: 0, y: 20 }}
+							whileInView={{ opacity: 1, y: 0 }}
+							transition={{ duration: 0.6, delay: 0.3 }}
+							viewport={{ once: true }}
+						>
+							<Card className='h-full text-center hover:shadow-lg transition-shadow duration-300'>
+								<CardContent className='p-8'>
+									<MapPin className='h-12 w-12 text-primary mx-auto mb-6' />
+									<h3 className='text-xl font-semibold text-gray-300 mb-4'>
+										Address
+									</h3>
+									<address className='text-gray-500 not-italic leading-relaxed'>
+										Office 202, Building 129
+										<br />
+										Road 3803, Block 338
+										<br />
+										Kingdom of Bahrain
+									</address>
+								</CardContent>
+							</Card>
+						</motion.div>
+					</div>
 				</Container>
 			</section>
 

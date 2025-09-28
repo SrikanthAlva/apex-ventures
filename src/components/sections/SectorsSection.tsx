@@ -130,13 +130,13 @@ export function SectorsSection() {
 											))}
 										</div>
 									</div>
-									<Button
+									{/* <Button
 										variant='ghost'
 										className='group-hover:bg-muted group-hover:shadow-sm transition-all'
 									>
 										Learn More
 										<ArrowRight className='ml-2 h-4 w-4' />
-									</Button>
+									</Button> */}
 								</CardContent>
 							</Card>
 						</motion.div>
